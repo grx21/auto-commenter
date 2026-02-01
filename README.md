@@ -1,5 +1,9 @@
 # Auto-Commenter
 
+<p align="center">
+  <img src="assets/og_image.png" alt="Auto-Commenter - A Claude skill that automatically posts personalized, authentic comments in your target communities" width="100%">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
