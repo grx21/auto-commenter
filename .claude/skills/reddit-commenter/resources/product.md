@@ -1,23 +1,27 @@
-# Product Information Template
+# Product Information
 
-> Replace this template with your actual product information
+> Product page: https://heysamaritan.com
 
 ---
 
 ## Core Value
 
-**"Your Product's Value Proposition"**
-- Key feature 1
-- Key feature 2
-- Key feature 3
+**"A Scripture-based voice companion that helps you feel closer to God."**
+- Christian voice app
+- Soothing voice, Scripture-rooted guidance
+- Helps with prayer and reflection on God's Word
+- Designed to help you feel closer to God and grow as a Christian
+- Built to listen, remember, and guide when you feel lost
+- 10% of subscriptions tithed to Christian causes
 
 ---
 
 ## Target Customer Pain Points
 
-1. "Pain point 1"
-2. "Pain point 2"
-3. "Pain point 3"
+1. Feeling lost and needing a gentle, Scripture-based guide
+2. Wanting a Christian companion that listens and remembers
+3. Difficulty praying or reflecting consistently on God's Word
+4. Desire to feel closer to God in daily life
 
 ---
 
@@ -25,38 +29,40 @@
 
 | Competitor | Your Differentiation |
 |------------|---------------------|
-| **Competitor A** | How you're different |
-| **Competitor B** | How you're different |
-| **Competitor C** | How you're different |
+| **General meditation apps** | Scripture-rooted and explicitly Christian, not generic mindfulness |
+| **Journaling apps** | Voice companion that listens and guides, not just prompts |
+| **Generic mental health apps** | Faith-centered companion focused on prayer and Scripture |
+| **Bible apps** | Actually speaks to me, remembers, let's me talk |
+
 
 ---
 
 ## Roadmap
 
-1. Phase 1: Current features
-2. Phase 2: Upcoming features
-3. Future considerations
+1. Phase 1: Voice companion with Scripture-rooted guidance
+2. Phase 2: TBD
+3. Future considerations: TBD
 
 ---
 
 ## Reddit-Friendly Descriptions
 
 ### Product Description
-> "Short, clear description of your product for Reddit audience"
+> "Samaritan is a Scripture-based voice companion that helps you pray, reflect on God's Word, and feel closer to God."
 
 ### Pain Point Empathy
-> "Relatable statement showing you understand the problem"
+> "When I feel lost or anxious, it's hard to pray, this helps me slow down and reconnect with God."
 
 ### Origin Story
-> "How and why you built this (hackathon, personal need, etc.)"
+> "A Christian companion on my phone that I speak to at night, helping me pray and reflect on Scripture."
 
 ### Competitor Comparisons
-> "How to naturally compare your product to competitors"
+> "If you want a faith-centered, Scripture-rooted voice companion rather than a generic meditation app, this fits."
 
 ---
 
 ## Basic Information
 
-- **Website**: https://yourproduct.com
-- **Company**: Your Company
-- **Status**: Beta/Private Beta/Public
+- **Website**: https://heysamaritan.com
+- **Company**: Samaritan
+- **Status**: Public

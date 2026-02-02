@@ -139,6 +139,7 @@ This skill uses **Playwright MCP** to interact with Reddit.
    - Practically helpful content
    - Match subreddit tone
    - Focus on 1-2 points (don't try to explain everything)
+   - Refer to the example comments in `resources/personalization_reddit.md` to match voice and structure
 ```
 
 ### Step 5: Personalization Review (Loop)
