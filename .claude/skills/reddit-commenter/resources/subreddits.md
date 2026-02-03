@@ -149,36 +149,9 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 
 ---
 
-### 6. r/AskAChristian (40k members)
-
-**Community Focus:** Q&A format, theological inquiry  
-**Tone:** Respectful, educational, debate-friendly  
-**Rules:**
-
-- Only Christians may give top-level replies
-- Max 5-6 related questions per post
-- No insults/uncivil discourse
-- No hypotheticals that assume non-standard God attributes
-- Honest inquiries only (no disguised rants)
-
-**Shilling Opportunity:** ⭐⭐  
-**Strategy:**
-
-- Answer questions with theological depth
-- Rarely mention Samaritan (only if mental health + faith question)
-- Focus on karma building through thoughtful answers
-
-**Karma Building:**
-
-- Provide biblical, grace-focused answers
-- Admit when you don't know ("great question, I'm not sure")
-- Engage genuinely with skeptics
-
----
-
 ## Medium-Priority Subreddits
 
-### 7. r/Christian (237k members)
+### 6. r/Christian (237k members)
 
 **Community Focus:** Christians-only discussion space  
 **Tone:** Ecumenical, charitable, moderately strict  
@@ -203,65 +176,9 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 - Inclusive, charitable tone
 - Life application over doctrine debates
 
----
-
-### 8. r/Christians (size unclear)
-
-**Community Focus:** Protestant, non-denominational Christian encouragement  
-**Tone:** Bible-centered, encouraging, theologically conservative (Reformed/evangelical leaning)  
-**Rules:**
-
-- Christian-focused space (similar to r/Christian)
-- Share biblically - advice grounded in Scripture
-- Charity and respect enforced
-- Active moderation, age/karma minimums for spam prevention
-
-**Shilling Opportunity:** ⭐⭐  
-**Strategy:**
-
-- Similar to r/Christian but smaller audience
-- Keep advice Scripture-based
-- Conservative theological framing (grace + truth balance)
-
-**Karma Building:**
-
-- Bible-grounded advice
-- Encouraging, respectful tone
-- Scripture references in comments
-
----
-
-### 9. r/Jesus (47k members)
-
-**Community Focus:** Jesus-centered devotional content, prayer, encouragement  
-**Tone:** Supportive, pastoral, prayer-focused (not debate-oriented)  
-**Rules:**
-
-- Manual moderator approval required for posts
-- Focus on prayer requests, testimonies, Bible verses
-- Respectful, non-combative posting
-- Avoid heavy self-promotion (ask mods first)
-
-**Shilling Opportunity:** ⭐⭐⭐  
-**Strategy:**
-
-- Focus on Jesus' compassion for suffering
-- Mention Samaritan as place to experience that compassion
-- Frame as "Jesus meets us in our pain through community"
-- Prayer-focused comments with occasional mention of support tools
-
-**Karma Building:**
-
-- Prayer for others
-- Encouraging testimonies
-- Bible verses with personal application
-- Supportive comments on others' struggles
-
----
-
 ## Low-Priority / Specialized Subreddits
 
-### 10. r/Samaritan_daily (Unknown size)
+### 7. r/Samaritan_daily (Unknown size)
 
 **Community Focus:** Unknown - no active community found or very small/private  
 **Tone:** Relaxed  
@@ -284,7 +201,11 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 - Discussion about mental health + faith integration
 - Loneliness, anxiety, depression posts
 - "I don't have anyone to talk to" comments
-- After establishing credibility with 4-5 helpful comments
+- Burnout or emotional exhaustion
+- Grief or loss
+- Isolation or feeling disconnected
+- Prayer fatigue or spiritual dryness
+- Decision anxiety / overwhelmed by choices
 
 ### How to Shill Subtly
 
@@ -302,6 +223,10 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 - Shilling before building credibility
 - Copy-paste responses
 - Mentioning in every comment
+
+**Cap:**
+
+- Max 1 promo mention per subreddit per day
 
 ### Karma Building (80% of activity)
 
@@ -328,7 +253,6 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 
 5. r/TrueChristian - strict moderation but allows support discussion
 6. r/Christian - inclusive, allows mental health talk
-7. r/AskAChristian - focus on karma building, rare shilling
 
 ---
 
