@@ -20,9 +20,9 @@ Start batch mode with these commands:
 1. Check tracking/reddit/today's-date.md (create from template.md if missing)
 2. Check current comment count by subreddit
 3. Calculate remaining quota:
-   - Total 24 (8 subreddits × 3)
+   - Total 21 (7 subreddits × 3)
    - Subtract today's written comments
-   - Remaining quota = 24 - Today's written comments
+   - Remaining quota = 21 - Today's written comments
 ```
 
 ---
@@ -80,19 +80,19 @@ Start batch mode with these commands:
 ### Execution Example
 
 ```
-Start r/WebDev
+Start r/PrayerRequests
   → Comment 1/3 written
   → Comment 2/3 written
   → Comment 3/3 written ✓
   
-r/WebDev complete → Wait 12 min → Move to r/ClaudeAI
+r/PrayerRequests complete → Wait 12 min → Move to r/TrueChristian
 
-Start r/ClaudeAI
+Start r/TrueChristian
   → Comment 1/3 written → Wait 6 min
   → Comment 2/3 written → Wait 8 min
   → Comment 3/3 written ✓
   
-r/ClaudeAI complete → Wait 10 min → Move to r/Cursor
+r/TrueChristian complete → Wait 10 min → Move to r/Christianmarriage
 ```
 
 ---
@@ -101,7 +101,7 @@ r/ClaudeAI complete → Wait 10 min → Move to r/Cursor
 
 Batch execution terminates when one of the following is met:
 
-1. **Quota complete**: All subreddit quotas complete (24)
+1. **Quota complete**: All subreddit quotas complete (21)
 2. **No posts**: No suitable posts in all subreddits
 3. **User interruption**: User requests stop
 4. **Error occurred**: After 3 consecutive failures
@@ -111,23 +111,22 @@ Batch execution terminates when one of the following is met:
 ### Progress Report
 ```
 ---
-[Overall Progress] 6/24 completed
+[Overall Progress] 6/21 completed
 
 Completed subreddits:
-✓ r/WebDev: 3/3
-✓ r/ClaudeAI: 3/3
+✓ r/PrayerRequests: 3/3
+✓ r/TrueChristian: 3/3
 
 In progress:
-→ r/Cursor: 0/3 (current)
+→ r/Christianmarriage: 0/3 (current)
 
 Waiting:
-- r/LocalLLaMA: 0/3
-- r/ChatGPT: 0/3
-- r/SideProject: 0/3
-- r/Obsidian: 0/3
-- r/Rag: 0/3
+- r/Christianity: 0/3
+- r/ChristianDating: 0/3
+- r/Christian: 0/3
+- r/Samaritan_daily: 0/3
 
-Next: Move to r/LocalLLaMA after r/Cursor quota complete
+Next: Move to r/Christianity after r/Christianmarriage quota complete
 ---
 ```
 
@@ -139,8 +138,8 @@ When skipping specific subreddit:
 
 When skipping, report:
 ```
-r/LocalLLaMA skipped - No suitable posts
-→ Moving to r/ChatGPT
+r/Samaritan_daily skipped - No suitable posts
+→ Moving to r/Christian
 ```
 
 ---
@@ -162,26 +161,25 @@ r/LocalLLaMA skipped - No suitable posts
 ---
 ## Batch Completion Report
 
-**Total Written**: 18/24
+**Total Written**: 16/21
 **Time Spent**: 2 hours 35 minutes
 
 ### Results by Subreddit
 | Subreddit | Written | Skip Reason |
 |-----------|---------|-------------|
-| r/WebDev | 3/3 | - |
-| r/ClaudeAI | 3/3 | - |
-| r/Cursor | 2/3 | No suitable posts |
-| r/LocalLLaMA | 0/3 | All skipped (no technical discussion) |
-| r/ChatGPT | 3/3 | - |
-| r/SideProject | 3/3 | - |
-| r/Obsidian | 2/3 | No suitable posts |
-| r/Rag | 2/3 | No suitable posts |
+| r/PrayerRequests | 3/3 | - |
+| r/TrueChristian | 3/3 | - |
+| r/Christianmarriage | 2/3 | No suitable posts |
+| r/Christianity | 3/3 | - |
+| r/ChristianDating | 2/3 | No suitable posts |
+| r/Christian | 3/3 | - |
+| r/Samaritan_daily | 0/3 | All skipped (no suitable posts) |
 
 ### Potential Customers Discovered
 - 2 (updated in leads/reddit.md)
 
 ### Special Notes
-- r/LocalLLaMA: All skipped due to no technical discussion posts today
+- r/Samaritan_daily: All skipped due to no suitable posts today
 ---
 ```
 

@@ -98,7 +98,7 @@ auto-commenter/
 ## Key Features
 
 - **Style Personalization** - 16-point checklist ensures natural, human-like comments
-- **Batch Execution** - Automatically fills daily quotas (e.g., 24 comments across 8 subreddits)
+- **Batch Execution** - Automatically fills daily quotas (e.g., 21 comments across 7 subreddits)
 - **Lead Identification** - Tracks potential customers interested in your product
 - **Activity Tracking** - Daily logs with comment links and metrics
 - **Multi-Platform Ready** - Extend to Twitter, LinkedIn, Discord by adding personalization files
@@ -110,7 +110,7 @@ auto-commenter/
 
 ### Single Comment
 ```
-"Write one comment on r/ClaudeAI"
+"Write one comment on r/PrayerRequests"
 ```
 → Analyzes posts, writes in your style, reviews quality, posts, tracks
 

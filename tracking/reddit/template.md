@@ -9,14 +9,13 @@
 
 | Subreddit | Today's Comments | Daily Limit | Last Comment |
 |-----------|------------------|-------------|--------------|
-| r/WebDev | 0 | 3 | - |
-| r/ClaudeAI | 0 | 3 | - |
-| r/Cursor | 0 | 3 | - |
-| r/LocalLLaMA | 0 | 3 | - |
-| r/ChatGPT | 0 | 3 | - |
-| r/SideProject | 0 | 3 | - |
-| r/Obsidian | 0 | 3 | - |
-| r/Rag | 0 | 3 | - |
+| r/PrayerRequests | 0 | 3 | - |
+| r/TrueChristian | 0 | 3 | - |
+| r/Christianmarriage | 0 | 3 | - |
+| r/Christianity | 0 | 3 | - |
+| r/ChristianDating | 0 | 3 | - |
+| r/Christian | 0 | 3 | - |
+| r/Samaritan_daily | 0 | 3 | - |
 
 **Today's Total Comments**: 0
 **Next Target Subreddit**: (Select from subreddits with no activity yet)

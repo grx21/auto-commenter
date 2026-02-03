@@ -77,7 +77,7 @@ Before posting a comment, verify:
 ### Recommended Daily Quotas
 - **Starting out**: 3-5 comments/day
 - **Established**: 10-15 comments/day
-- **Maximum**: 24 comments/day (8 subreddits × 3)
+- **Maximum**: 21 comments/day (7 subreddits × 3)
 
 ### Red Flags to Watch
 - Comments getting downvoted

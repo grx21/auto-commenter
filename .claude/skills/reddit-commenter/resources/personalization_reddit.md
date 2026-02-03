@@ -37,7 +37,7 @@
 
 ### Length Distribution (Required)
 
-For daily activity (e.g., 24 comments):
+For daily activity (e.g., 21 comments):
 - **Ultra-short (1 sentence)**: 20-30% = 5-7
 - **Short (2-4 sentences)**: 40% = 9-10
 - **Medium (5-8 sentences)**: 30% = 7-8
@@ -220,7 +220,7 @@ not change congregation and just improve my relationship with him /
 others around me. But if I can't, idk, I feel like I share less and less.
 ```
 → Deep vulnerability, admitting flaws, seeking advice
-→ **Only use this pattern sparingly (1-2 per 24 comments)**
+→ **Only use this pattern sparingly (1-2 per 21 comments)**
 
 ---
 
