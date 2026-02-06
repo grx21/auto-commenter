@@ -48,6 +48,7 @@ This skill uses **Playwright MCP** to interact with Reddit.
 3. Select next subreddit for commenting:
    - Prioritize subreddits with no activity today or under limit
    - Prioritize subreddits with oldest last activity time
+   - Only select subreddits listed in `resources/subreddits.md` (do not comment elsewhere)
 
 4. Check subreddit specifics in resources/subreddits.md:
    - Core community rules
