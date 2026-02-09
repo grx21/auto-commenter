@@ -23,11 +23,13 @@ This skill uses **Playwright MCP** to interact with Reddit.
 | `browser_type` | Input text (comment content) |
 | `browser_wait_for` | Wait for page loading |
 
-### ⚠️ Important Notes When Using Playwright MCP
-- **Minimize tokens**: When calling MCP, don't pass entire conversation context—only concisely summarize the essential information needed for that action
+### ⚠️ MCP Usage Rules
+- **Snapshot only when needed**: Only snapshot to read content or locate an element you need to interact with
+- **Snapshot caps**: Max 2 snapshots per listing page, max 2 per post page. If elements are missing after that, skip and move on
+- **Single action per call**: Each MCP call should do one small thing
 - **Direct navigation**: Navigate directly to URLs with `browser_navigate` rather than clicking elements (prevents click errors, saves tokens)
-- **Concise instructions**: Pass only minimal instructions like "Navigate to [URL]", "Click [element]", "Type: [text]"
-- **⚠️ No screenshots**: Do NOT use `browser_take_screenshot`. Always use only `browser_snapshot` for page verification (accessibility tree is sufficient and doesn't save files)
+- **Fixed minimal format**: Only pass minimal instructions like `"Navigate to [URL]"`, `"Click [ref]"`, `"Type: [text]"` — never pass conversation context
+- **⚠️ No screenshots**: Do NOT use `browser_take_screenshot`. Always use only `browser_snapshot` for page verification
 
 ---
 
@@ -68,18 +70,24 @@ This skill uses **Playwright MCP** to interact with Reddit.
 2. Page snapshot
    → browser_snapshot()
 
-3. Criteria for selecting posts to comment on:
+3. Review only the first 5 posts on the listing page
+   → If no suitable post among the first 5, stop and report
+     "no suitable posts" for this subreddit — do NOT scroll or paginate
+
+4. Criteria for selecting posts to comment on:
    • Posts where you can share insights or provide feedback
    • ⚠️ CRITICAL: Posts you haven't commented on today
-     - Check activity log in tracking/reddit/today's-date.md file
-     - Extract list of post URLs from today's comments
-     - Verify selected post URL is NOT in that list
+     - Rely on the tracking file (tracking/reddit/today's-date.md)
+       to know what was already commented — do NOT re-check Reddit
      - Absolutely NO duplicate comments on same post
    • OK even if not related to your service/field
    • Relevance to "good topics to answer" from Step 1
    • Avoid posts with already hundreds of comments
 
-4. Secure URL of selected post
+5. Shortlist up to 3 candidate posts before navigating
+   → Pick the best candidate to navigate to first
+
+6. Secure URL of selected post
    → Check and record post link in snapshot
    → Navigate directly to this URL in next Step
 ```
@@ -104,7 +112,8 @@ This skill uses **Playwright MCP** to interact with Reddit.
    - Seeking opinions/discussion? (hypothetical scenario)
    - Information sharing? (experience story)
 
-3. Analyze existing comments:
+3. Analyze existing comments (read only what's needed):
+   - Read OP + top-level comments only — avoid deep reply threads
    - Check how others interpreted
    - Understand how community is receiving this post
    - Check tone and answering style
@@ -135,20 +144,21 @@ This skill uses **Playwright MCP** to interact with Reddit.
 ### Step 4: Write Comment
 
 ```
-1. Draft comment based on Step 3 analysis results:
+1. Read resources/personalization_reddit.md now (not before this step)
+2. Draft comment based on Step 3 analysis results:
    - Answer matching OP's actual question
    - Practically helpful content
    - Match subreddit tone
    - Focus on 1-2 points (don't try to explain everything)
-   - Refer to the example comments in `resources/personalization_reddit.md` to match voice and structure
+   - Match voice and structure from personalization guide
 ```
 
-### Step 5: Personalization Review (Loop)
+### Step 5: Personalization Review (Max 1 Revision)
 
 ```
-1. Check resources/personalization_reddit.md file
-   → Sequentially check 16 personalization checklist items based on actual comment style
-   → Especially important: #4 personal experience, #13 experience pattern, #15 question intent understanding, #16 site verification
+1. Check against personalization_reddit.md checklist
+   → Especially important: #4 personal experience, #13 experience pattern,
+     #15 question intent understanding, #16 site verification
 
 2. Check style patterns:
    • Which pattern (1-8) is it closest to?
@@ -157,7 +167,9 @@ This skill uses **Playwright MCP** to interact with Reddit.
 
 3. Review process:
    • All items PASS → Proceed to Step 6
-   • Any violation → Revise comment and re-review from Step 5 beginning
+   • Any violation → Revise comment once and re-check
+   • ⚠️ Draft loop cap: max 1 revision total
+     If personalization still fails after 1 revision, skip this post and move on
 
 ```
 
@@ -223,11 +235,12 @@ Update tracking/reddit/[today's-date].md file:
 | File | Reference Timing |
 |------|------------------|
 | `resources/subreddits.md` | Step 1 (subreddit selection) |
-| `resources/personalization_reddit.md` | Step 5 (review) |
+| `resources/personalization_reddit.md` | Step 4 (drafting) — read only when needed, not in advance |
 | `resources/product.md` | Step 7 (potential customer judgment) |
 | `leads/reddit.md` | Step 7 (lead criteria check) |
 
 → Reference only at relevant Step, don't read in advance
+→ Only read large resources (e.g. personalization_reddit.md) when actively needed
 
 ---
 
@@ -237,11 +250,11 @@ Update tracking/reddit/[today's-date].md file:
 2. **Rate Limiting**: Too fast activity risks account restrictions
 3. **Community Rules**: Must follow each subreddit's rules
 4. **Spam Prevention**: Absolutely NO copy-pasting same content
-5. **Review Required**: Rewrite if any checklist item violated
+5. **Review Required**: Max 1 revision per comment — skip post if still failing
 6. **⚠️ Step 3 Required**: NEVER write comment without analyzing post content. Judging only by keywords can cause serious errors
 7. **⚠️ Minimize Playwright MCP tokens**:
    - Don't pass entire context when calling Playwright MCP
-   - Concisely summarize only essential information needed for each MCP call
-   - E.g.: Only minimal instructions like "Navigate to [URL]", "Click comment box", "Type: [text]"
+   - Use fixed minimal format: `"Navigate to [URL]"`, `"Click [ref]"`, `"Type: [text]"`
    - Prevent errors from excessive input tokens
 8. **⚠️ Post Navigation**: Use browser_navigate directly with URL instead of clicking post (prevents click errors)
+9. **⚠️ Candidate limit**: Only review first 5 posts per listing page. No suitable post = report and move on

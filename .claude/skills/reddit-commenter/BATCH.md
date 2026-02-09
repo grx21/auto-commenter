@@ -20,10 +20,27 @@ Start batch mode with these commands:
 1. Check tracking/reddit/today's-date.md (create from template.md if missing)
 2. Check current comment count by subreddit
 3. Calculate remaining quota:
-   - Total 24 (8 subreddits × 3)
+   - Total 21 (7 subreddits × 3)
    - Subtract today's written comments
-   - Remaining quota = 24 - Today's written comments
+   - Remaining quota = 21 - Today's written comments
 ```
+
+---
+
+## Cost Controls
+
+These rules apply to every comment in the batch to minimize token usage:
+
+| Rule | Detail |
+|------|--------|
+| **Snapshot caps** | Max 2 per listing page, max 2 per post page. Skip if elements missing after that |
+| **Candidate cap** | Only review first 5 posts in new/ or rising/. No match = skip subreddit |
+| **Read only what's needed** | OP + top-level comments only — avoid deep reply threads |
+| **Don't re-check Reddit** | Rely on the tracking file to know what was already commented |
+| **Shortlist before navigating** | Pick up to 3 candidate posts from listing before navigating to any |
+| **Draft loop cap** | Max 1 revision per comment. Still failing personalization = skip post |
+| **Minimal MCP payloads** | Fixed format: `"Navigate to [URL]"`, `"Click [ref]"`, `"Type: [text]"` — never pass context |
+| **Lazy resource reads** | Only read large files (personalization_reddit.md, etc.) when actively needed, not upfront |
 
 ---
 
@@ -35,10 +52,12 @@ Start batch mode with these commands:
 [1] Check tracking file (/tracking/reddit/(today's date).md) → Calculate remaining quota
     ↓
 [2] Select subreddit under quota (by priority criteria)
+    → Check subreddit specifics in resources/subreddits.md:
+      rules, community nature, good topics to answer
     ↓
 [3] Start comment writing loop for that subreddit
     ↓
-    [3-1] Execute SKILL.md Step 1-8 (write single comment)
+    [3-1] Execute SKILL.md Step 2-8 (subreddit already selected)
     ↓
     [3-2] Update tracking file
     ↓
@@ -73,26 +92,26 @@ Start batch mode with these commands:
 
 | Situation | Wait Time |
 |-----------|-----------|
-| Between comments in same subreddit | None |
+| Between comments in same subreddit | 5-10 minutes |
 | Between subreddit transitions | 5-15 minutes |
 | Can't find suitable post | Move to next subreddit (wait 5-15 minutes) |
 
 ### Execution Example
 
 ```
-Start r/WebDev
-  → Comment 1/3 written
-  → Comment 2/3 written
+Start r/PrayerRequests
+  → Comment 1/3 written → Wait 7 min
+  → Comment 2/3 written → Wait 5 min
   → Comment 3/3 written ✓
-  
-r/WebDev complete → Wait 12 min → Move to r/ClaudeAI
 
-Start r/ClaudeAI
-  → Comment 1/3 written → Wait 6 min
-  → Comment 2/3 written → Wait 8 min
+r/PrayerRequests complete → Wait 12 min → Move to r/TrueChristian
+
+Start r/TrueChristian
+  → Comment 1/3 written → Wait 8 min
+  → Comment 2/3 written → Wait 6 min
   → Comment 3/3 written ✓
-  
-r/ClaudeAI complete → Wait 10 min → Move to r/Cursor
+
+r/TrueChristian complete → Wait 10 min → Move to r/Christianmarriage
 ```
 
 ---
@@ -101,7 +120,7 @@ r/ClaudeAI complete → Wait 10 min → Move to r/Cursor
 
 Batch execution terminates when one of the following is met:
 
-1. **Quota complete**: All subreddit quotas complete (24)
+1. **Quota complete**: All subreddit quotas complete (21)
 2. **No posts**: No suitable posts in all subreddits
 3. **User interruption**: User requests stop
 4. **Error occurred**: After 3 consecutive failures
