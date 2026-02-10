@@ -251,6 +251,7 @@ others around me. But if I can't, idk, I feel like I share less and less.
 
 ## Expressions to Avoid
 
+- Em-dashes: use commas, parentheses, or separate sentences instead
 - "Great question!", "Absolutely!", "Definitely!"
 - "Hope this helps!", "Here's what you need to know:"
 - "pain points", "leverage", "utilize", "facilitate"

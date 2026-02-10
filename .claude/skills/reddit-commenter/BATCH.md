@@ -68,7 +68,7 @@ These rules apply to every comment in the batch to minimize token usage:
           - Completed 3 → to [4]
           - No suitable posts → to [4]
     ↓
-[4] Move to next subreddit (wait 5-15 minutes)
+[4] Move to next subreddit (wait 5 minutes)
     ↓
 [5] Check overall termination condition
     ↓
@@ -93,8 +93,8 @@ These rules apply to every comment in the batch to minimize token usage:
 | Situation | Wait Time |
 |-----------|-----------|
 | Between comments in same subreddit | 5-10 minutes |
-| Between subreddit transitions | 5-15 minutes |
-| Can't find suitable post | Move to next subreddit (wait 5-15 minutes) |
+| Between subreddit transitions | 5 minutes |
+| Can't find suitable post | Move to next subreddit (wait 5 minutes) |
 
 ### Execution Example
 
@@ -104,14 +104,14 @@ Start r/PrayerRequests
   → Comment 2/3 written → Wait 5 min
   → Comment 3/3 written ✓
 
-r/PrayerRequests complete → Wait 12 min → Move to r/TrueChristian
+r/PrayerRequests complete → Wait 5 min → Move to r/TrueChristian
 
 Start r/TrueChristian
   → Comment 1/3 written → Wait 8 min
   → Comment 2/3 written → Wait 6 min
   → Comment 3/3 written ✓
 
-r/TrueChristian complete → Wait 10 min → Move to r/Christianmarriage
+r/TrueChristian complete → Wait 5 min → Move to r/Christianmarriage
 ```
 
 ---
