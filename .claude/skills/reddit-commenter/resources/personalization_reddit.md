@@ -12,6 +12,7 @@
 - Direct practical advice over theory
 - Uses ellipses (...) for thoughtful pauses
 - Lowercase is fine, informal punctuation
+- **No em-dashes (—)**: use a comma, period, or hyphen instead (e.g. "for strength, for the doctors' wisdom" not "for strength—for the doctors' wisdom")
 - No greetings, no elaborate closings
 - Use phrases like "I think", "I see", "Can't we...", "Do people..."
 
@@ -89,7 +90,7 @@ Repeating this structure makes it look AI-generated:
 | 6 | Constructive criticism | Point out problems directly ("you're overcomplicating it") |
 | 7 | Practical focus | Actionable advice over theory |
 | 8 | Closing | No cliché closings, just end naturally |
-| 9 | Punctuation | Ellipses (...) OK, casual punctuation, lowercase fine |
+| 9 | Punctuation | Ellipses (...) OK, casual punctuation, lowercase fine. **No em-dashes (—)**: use comma, period, or hyphen instead |
 | 10 | Bullet points | Avoid, use short paragraphs instead |
 | 11 | Theological accuracy | For Christian content: grace-focused, anti-legalistic |
 | 12 | Capitalization | Always write God with uppercase G |

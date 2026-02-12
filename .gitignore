@@ -23,6 +23,8 @@ leads/*.md
 # MCP
 .mcp/cache/
 Perplexity-Comet-MCP/
+.playwright-mcp/
+.claude/worktrees/
 
 # macOS
 .DS_Store

@@ -1,0 +1,958 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+    - generic [ref=e4]: Skip to main content
+  - generic [ref=e7]:
+    - generic:
+      - generic:
+        - generic [ref=e8]:
+          - generic: "*serious question* as a Christian do I have to be in a political group? : r/TrueChristian"
+        - banner [ref=e11]:
+          - navigation [ref=e12]:
+            - link "Home" [ref=e16] [cursor=pointer]:
+              - /url: /
+              - img [ref=e18]
+            - search [ref=e35]:
+              - generic [ref=e37]:
+                - img [ref=e40]
+                - generic "Remove r/TrueChristian filter and expand search to all of Reddit" [ref=e43] [cursor=pointer]:
+                  - button [pressed] [ref=e44]:
+                    - img [ref=e46]
+                    - generic [ref=e49]: r/TrueChristian
+                  - img [ref=e51]
+                - textbox "Remove r/TrueChristian filter and expand search to all of Reddit" [ref=e54]:
+                  - /placeholder: Search in r/TrueChristian
+            - generic [ref=e55]:
+              - generic [ref=e56]:
+                - link "Advertise on Reddit" [ref=e62] [cursor=pointer]:
+                  - /url: https://ads.reddit.com/register?utm_source=web3x_consumer&utm_name=nav_cta
+                  - img [ref=e65]
+                  - generic [ref=e67]:
+                    - generic: Advertise on Reddit
+                - button "Open chat" [ref=e73] [cursor=pointer]:
+                  - img [ref=e76]
+                  - generic [ref=e78]:
+                    - generic: Open chat
+                - link "Create post" [ref=e83] [cursor=pointer]:
+                  - /url: /r/TrueChristian/submit/
+                  - generic [ref=e84]:
+                    - img [ref=e86]
+                    - generic [ref=e88]: Create
+                  - generic [ref=e89]:
+                    - generic: Create post
+                - generic [ref=e91]:
+                  - link "Open inbox" [ref=e94] [cursor=pointer]:
+                    - /url: /notifications
+                    - img [ref=e97]
+                    - generic [ref=e99]:
+                      - generic: Open inbox
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "1"
+              - button "Expand user menu" [ref=e104] [cursor=pointer]:
+                - img [ref=e114]
+                - generic [ref=e117]:
+                  - generic: Expand user menu
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - generic:
+                - generic:
+                  - link "Skip to Navigation" [ref=e121] [cursor=pointer]:
+                    - /url: "#left-sidebar-container"
+                  - link "Skip to Right Sidebar" [ref=e122] [cursor=pointer]:
+                    - /url: "#right-sidebar-container"
+            - generic [ref=e123]:
+              - main [ref=e124]:
+                - 'generic "*serious question* as a Christian do I have to be in a political group? : r/TrueChristian"'
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]:
+                      - button "Back" [ref=e129] [cursor=pointer]:
+                        - img [ref=e132]
+                        - generic [ref=e134]:
+                          - generic: Back
+                      - link "Go to TrueChristian" [ref=e137] [cursor=pointer]:
+                        - /url: /r/TrueChristian/
+                        - img [ref=e141]
+                        - generic [ref=e143]:
+                          - generic: Go to TrueChristian
+                      - group [ref=e144]:
+                        - generic [ref=e145]:
+                          - generic "r/TrueChristian" [ref=e149]:
+                            - link "r/TrueChristian" [ref=e150] [cursor=pointer]:
+                              - /url: /r/TrueChristian/
+                          - generic [ref=e151]: •
+                          - time [ref=e153]: 40m ago
+                        - 'link "Author: Silver_Fact_9714" [ref=e159] [cursor=pointer]':
+                          - /url: /user/Silver_Fact_9714/
+                          - text: Silver_Fact_9714
+                    - button "Open user actions" [ref=e164] [cursor=pointer]:
+                      - img [ref=e167]
+                  - 'heading "Post Title: *serious question* as a Christian do I have to be in a political group?" [level=1] [ref=e171]': "*serious question* as a Christian do I have to be in a political group?"
+                  - generic [ref=e175]:
+                    - paragraph [ref=e176]: hey guys I wanna ask something. i been a Christian my whole life and always believe in the word of God. but I always never been into politics. no I'm not privileged nor don't care about human beings like people will always accuse me off. I just don't care about politics due to both sides constantly lying, both sides always having ties to racism and to PDFiles like the Jeffrey Epstein thing and how both are turning people against one another.
+                    - paragraph [ref=e177]: but lately I told people I wasn't into politics but got told I was conservative and privileged from someone on here, then I got told again I'm a commie who was doesn't care about America on Instagram and both people brought up my religion like the one person on reddit saying I'm secretly a conservative because I'm a Christian and the other person on Instagram said since I'm a man of God I should be a conservative.
+                    - paragraph [ref=e178]: so my question is can I still be a Christian and just not care about politics, culture war or any of the stuff happening and just focusing on my life?
+                  - generic "Actions available for this post" [ref=e179]:
+                    - generic [ref=e181]:
+                      - button "Upvote" [ref=e182] [cursor=pointer]:
+                        - img [ref=e184]
+                        - generic [ref=e186]:
+                          - generic: Upvote
+                      - generic [ref=e188]: "2"
+                      - button "Downvote" [ref=e189] [cursor=pointer]:
+                        - img [ref=e191]
+                        - generic [ref=e193]:
+                          - generic: Downvote
+                    - button "12 Go to comments" [ref=e194] [cursor=pointer]:
+                      - generic [ref=e195]:
+                        - img [ref=e197]
+                        - generic [ref=e200]: "12"
+                      - generic [ref=e201]:
+                        - generic: Go to comments
+                    - button "Give award" [ref=e203] [cursor=pointer]:
+                      - img [ref=e206]
+                    - button "Share" [ref=e211] [cursor=pointer]:
+                      - generic [ref=e212]:
+                        - img [ref=e214]
+                        - generic [ref=e216]: Share
+                - generic [ref=e219]:
+                  - generic:
+                    - textbox [ref=e229]:
+                      - /placeholder: Join the conversation
+                    - generic [ref=e235]:
+                      - generic [ref=e237]:
+                        - generic [ref=e238]: "Sort by:"
+                        - button "Sort by Best" [ref=e243] [cursor=pointer]:
+                          - generic [ref=e245]: Best
+                          - img [ref=e247]
+                      - button "Search Comments Expand comment search" [ref=e253] [cursor=pointer]:
+                        - generic [ref=e254]:
+                          - img [ref=e257]
+                          - generic [ref=e260]: Search Comments
+                        - generic [ref=e261]:
+                          - generic: Expand comment search
+                - region "Comments" [ref=e265]:
+                  - heading "Comments Section" [level=1] [ref=e266]
+                  - generic:
+                    - article "Comment from shadowpooch1 36 minutes ago" [ref=e268]:
+                      - generic "Metadata for shadowpooch1's comment" [ref=e269]:
+                        - link "shadowpooch1's profile --- avatar" [ref=e275] [cursor=pointer]:
+                          - /url: /user/shadowpooch1/
+                          - img "u/shadowpooch1 avatar" [ref=e278]
+                        - generic [ref=e282]:
+                          - generic [ref=e283]:
+                            - link "shadowpooch1's profile" [ref=e287] [cursor=pointer]:
+                              - /url: /user/shadowpooch1/
+                              - text: shadowpooch1
+                            - generic [ref=e288]: •
+                            - link "36m ago" [ref=e289] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jko6u/
+                              - time [ref=e290]: 36m ago
+                          - 'generic "Flair: Christian" [ref=e294]': Christian
+                      - generic [ref=e295]:
+                        - paragraph [ref=e304]: No. It is better to avoid politics these days IMO. Each side manipulates, and the whole thing is a soap opera. Just focus on Christ.
+                        - button "Toggle Comment Thread" [expanded] [ref=e307] [cursor=pointer]:
+                          - img [ref=e310]
+                        - 'article "Comment thread level 1: Reply from PJRama1864 10 minutes ago" [ref=e318]':
+                          - generic "Metadata for PJRama1864's comment" [ref=e319]:
+                            - link "PJRama1864's profile --- avatar" [ref=e325] [cursor=pointer]:
+                              - /url: /user/PJRama1864/
+                              - img "u/PJRama1864 avatar" [ref=e328]
+                            - generic [ref=e333]:
+                              - link "PJRama1864's profile" [ref=e337] [cursor=pointer]:
+                                - /url: /user/PJRama1864/
+                                - text: PJRama1864
+                              - generic [ref=e338]: •
+                              - link "10m ago" [ref=e339] [cursor=pointer]:
+                                - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jp74i/
+                                - time [ref=e340]: 10m ago
+                          - paragraph [ref=e349]: "Less a soap opera, more like telemundo for an audience that doesn’t speak Spanish: The people watching don’t know what’s being said, those acting on stage are extremely dramatic about it, and for some reason somebody is now getting naked (probably to distract)."
+                    - article "Comment from Tszappur 37 minutes ago" [ref=e355]:
+                      - generic "Metadata for Tszappur's comment" [ref=e356]:
+                        - link "Tszappur's profile --- avatar" [ref=e362] [cursor=pointer]:
+                          - /url: /user/Tszappur/
+                          - img "u/Tszappur avatar" [ref=e365]
+                        - generic [ref=e369]:
+                          - generic [ref=e370]:
+                            - link "Tszappur's profile" [ref=e374] [cursor=pointer]:
+                              - /url: /user/Tszappur/
+                              - text: Tszappur
+                            - generic [ref=e375]: •
+                            - link "37m ago" [ref=e376] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jkju6/
+                              - time [ref=e377]: 37m ago
+                          - 'generic "Flair: Memorize the Psalter!" [ref=e381]': Memorize the Psalter!
+                      - generic [ref=e388]:
+                        - blockquote [ref=e389]:
+                          - paragraph [ref=e390]: so my question is can I still be a Christian and just not care about politics, culture war or any of the stuff happening and just focusing on my life?
+                        - paragraph [ref=e391]: Yes.
+                    - article "Comment from chrismireya 36 minutes ago" [ref=e397]:
+                      - generic "Metadata for chrismireya's comment" [ref=e398]:
+                        - link "chrismireya's profile --- avatar" [ref=e404] [cursor=pointer]:
+                          - /url: /user/chrismireya/
+                          - generic [ref=e406]:
+                            - img [ref=e408]
+                            - img [ref=e412]
+                            - img [ref=e415]
+                        - generic [ref=e421]:
+                          - link "chrismireya's profile" [ref=e425] [cursor=pointer]:
+                            - /url: /user/chrismireya/
+                            - text: chrismireya
+                          - generic [ref=e426]: •
+                          - link "36m ago" [ref=e427] [cursor=pointer]:
+                            - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jks79/
+                            - time [ref=e428]: 36m ago
+                      - paragraph [ref=e437]: Of course not. Our allegiance is to the Lord. At the same time, this doesn't prohibit a person from sharing their voice -- even in the form of a vote. When you vote, you're not declaring allegiance to a politician or a political party. You're simply choosing a person who you believe to be the better choice for a term of office. You're not voting for a pastor.
+                    - article "Comment from mr_megaspore 34 minutes ago" [ref=e443]:
+                      - generic "Metadata for mr_megaspore's comment" [ref=e444]:
+                        - link "mr_megaspore's profile --- avatar" [ref=e450] [cursor=pointer]:
+                          - /url: /user/mr_megaspore/
+                          - img "u/mr_megaspore avatar" [ref=e453]
+                        - generic [ref=e457]:
+                          - generic [ref=e458]:
+                            - link "mr_megaspore's profile" [ref=e462] [cursor=pointer]:
+                              - /url: /user/mr_megaspore/
+                              - text: mr_megaspore
+                            - generic [ref=e463]: •
+                            - link "34m ago" [ref=e464] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jl50w/
+                              - time [ref=e465]: 34m ago
+                          - 'generic "Flair: Christian" [ref=e469]': Christian
+                      - generic [ref=e476]:
+                        - paragraph [ref=e477]: John 18:36
+                        - paragraph [ref=e478]: Jesus answered, “My kingdom is not of this world. If My kingdom were of this world, My servants would fight, so that I should not be delivered to the Jews; but now My kingdom is not from here.”
+                    - article "Comment from KnightLakega 31 minutes ago" [ref=e484]:
+                      - generic "Metadata for KnightLakega's comment" [ref=e485]:
+                        - link "KnightLakega's profile --- avatar" [ref=e491] [cursor=pointer]:
+                          - /url: /user/KnightLakega/
+                          - img "u/KnightLakega avatar" [ref=e494]
+                        - generic [ref=e499]:
+                          - link "KnightLakega's profile" [ref=e503] [cursor=pointer]:
+                            - /url: /user/KnightLakega/
+                            - text: KnightLakega
+                          - generic [ref=e504]: •
+                          - link "31m ago" [ref=e505] [cursor=pointer]:
+                            - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jlkpg/
+                            - time [ref=e506]: 31m ago
+                      - paragraph [ref=e515]: As a Christian who actually knows the Bible, and the word of God, and his teachings, you will realize both sides are very faulty, and you will not align with anyone but God himself.
+                    - article "Comment from c3powil 30 minutes ago" [ref=e521]:
+                      - generic "Metadata for c3powil's comment" [ref=e522]:
+                        - link "c3powil's profile --- avatar" [ref=e528] [cursor=pointer]:
+                          - /url: /user/c3powil/
+                          - img "u/c3powil avatar" [ref=e531]
+                        - generic [ref=e535]:
+                          - generic [ref=e536]:
+                            - link "c3powil's profile" [ref=e540] [cursor=pointer]:
+                              - /url: /user/c3powil/
+                              - text: c3powil
+                            - generic [ref=e541]: •
+                            - link "30m ago" [ref=e542] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jlol6/
+                              - time [ref=e543]: 30m ago
+                          - 'generic "Flair: Christian" [ref=e547]': Christian
+                      - paragraph [ref=e555]: No, you don't have to be in any political group. In my opinion, it's best to stay away from commiting yourself or otherwise publicly aligning with any political party.
+                    - article "Comment from Interesting-Post9811 24 minutes ago" [ref=e561]:
+                      - generic "Metadata for Interesting-Post9811's comment" [ref=e562]:
+                        - link "Interesting-Post9811's profile --- avatar" [ref=e568] [cursor=pointer]:
+                          - /url: /user/Interesting-Post9811/
+                          - img [ref=e573]
+                        - generic [ref=e578]:
+                          - generic [ref=e579]:
+                            - link "Interesting-Post9811's profile" [ref=e583] [cursor=pointer]:
+                              - /url: /user/Interesting-Post9811/
+                              - text: Interesting-Post9811
+                            - generic [ref=e584]: •
+                            - link "24m ago" [ref=e585] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jmuvf/
+                              - time [ref=e586]: 24m ago
+                          - 'generic "Flair: Methodist International" [ref=e590]': Methodist International
+                      - paragraph [ref=e598]: If you can find any politicians who actually follow the beatitudes with the policies that they advocate and vote for you should support that. But it can be hard to find anybody who actually votes for policies that take care of the poor for example
+                    - article "Comment from Bobcats_Forever 11 minutes ago" [ref=e604]:
+                      - generic "Metadata for Bobcats_Forever's comment" [ref=e605]:
+                        - link "Bobcats_Forever's profile --- avatar" [ref=e611] [cursor=pointer]:
+                          - /url: /user/Bobcats_Forever/
+                          - img "u/Bobcats_Forever avatar" [ref=e614]
+                        - generic [ref=e619]:
+                          - link "Bobcats_Forever's profile" [ref=e623] [cursor=pointer]:
+                            - /url: /user/Bobcats_Forever/
+                            - text: Bobcats_Forever
+                          - generic [ref=e624]: •
+                          - link "11m ago" [ref=e625] [cursor=pointer]:
+                            - /url: /r/TrueChristian/comments/1r0nylo/comment/o4joygx/
+                            - time [ref=e626]: 11m ago
+                      - generic [ref=e634]:
+                        - paragraph [ref=e635]: While I am a registered Independent since the 80's I only vote dem now - but way back when sided with republicans as I believed, at the time, that represented family and moral values (I was young).
+                        - paragraph [ref=e636]: back then you had things like morals/values/moral majority/etc - people who saw the republicans as the moral and christian voice. It was all a farce much like the televangelists.
+                        - paragraph [ref=e637]: You have only to look back at what they said then and how they reacted to, let's say clinton and the intern, to see how hypocritical people on the right were and are now.
+                        - paragraph [ref=e638]: That is one of many reasons that, while still a registered Independent, I vote for dems. People on the right tend to worship a figure, trump currently, and put aside their bible to follow him. They buy his hats, flags, etc, and spend more time praising him than they do spreading the good news. Ask yourself why.
+                        - paragraph [ref=e639]: The televangelists preach about sending them money - and they take it and buy expensive homes and then cheat on their wives and lie. Just like trump does. They are both the same in that they use your faith to get your money and to get power.
+                        - paragraph [ref=e640]: At least with dems you know what they stand for up front - helping those in need, raising taxes on the wealthy, freedom of choice, gay rights, etc - and they don't use the bible to sit around and justify it all. The right NEEDS religious people to get power, they see most are christian here in the US, and then use their bible to convince you that if you don't vote for them and all they say you are going to hell.
+                        - paragraph [ref=e641]: Conservatism is a cancer that uses religion (from the Taliban to Saudi Arabia to Trump) to empower the few to push their brand and interpretation onto others. Both parties may do some of the same thing here in the US but both are not the same. You can choose to vote for the party that uses the bible to hurt people or you can choose to vote for the party that doesn't tie itself to any religion.
+                    - article "Comment from Admirable-Support271 35 minutes ago" [ref=e647]:
+                      - generic "Metadata for Admirable-Support271's comment" [ref=e648]:
+                        - link "Admirable-Support271's profile --- avatar" [ref=e654] [cursor=pointer]:
+                          - /url: /user/Admirable-Support271/
+                          - img "u/Admirable-Support271 avatar" [ref=e657]
+                        - generic [ref=e662]:
+                          - link "Admirable-Support271's profile" [ref=e666] [cursor=pointer]:
+                            - /url: /user/Admirable-Support271/
+                            - text: Admirable-Support271
+                          - generic [ref=e667]: •
+                          - link "35m ago" [ref=e668] [cursor=pointer]:
+                            - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jkza7/
+                            - time [ref=e669]: 35m ago
+                      - generic [ref=e677]:
+                        - paragraph [ref=e678]: I’m a “Libertarian”
+                        - paragraph [ref=e679]: Because this happened to me too one time at work. I was SO confused. Like how nobody saw they were both lying. In reality, I just don’t vote unless someone I truly believe in is running. Otherwise… just read the Bible and pray to God to ask people to focus on our communities instead of our government.
+                    - article "Comment from NoPomegranate1144 3 minutes ago" [ref=e685]:
+                      - generic "Metadata for NoPomegranate1144's comment" [ref=e686]:
+                        - link "NoPomegranate1144's profile --- avatar" [ref=e692] [cursor=pointer]:
+                          - /url: /user/NoPomegranate1144/
+                          - generic [ref=e694]:
+                            - img [ref=e696]
+                            - img [ref=e700]
+                            - img [ref=e703]
+                        - generic [ref=e709]:
+                          - link "NoPomegranate1144's profile" [ref=e713] [cursor=pointer]:
+                            - /url: /user/NoPomegranate1144/
+                            - text: NoPomegranate1144
+                          - generic [ref=e714]: •
+                          - link "3m ago" [ref=e715] [cursor=pointer]:
+                            - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jqd9o/
+                            - time [ref=e716]: 3m ago
+                      - paragraph [ref=e725]: No, of course not. But. Voting is how we make our voices heard and make a difference.
+                    - article "Comment from xKingSrtx 1 minute ago" [ref=e731]:
+                      - generic "Metadata for xKingSrtx's comment" [ref=e732]:
+                        - link "xKingSrtx's profile --- avatar" [ref=e738] [cursor=pointer]:
+                          - /url: /user/xKingSrtx/
+                          - img [ref=e743]
+                        - generic [ref=e748]:
+                          - generic [ref=e749]:
+                            - link "xKingSrtx's profile" [ref=e753] [cursor=pointer]:
+                              - /url: /user/xKingSrtx/
+                              - text: xKingSrtx
+                            - generic [ref=e754]: •
+                            - link "1m ago" [ref=e755] [cursor=pointer]:
+                              - /url: /r/TrueChristian/comments/1r0nylo/comment/o4jqnwo/
+                              - time [ref=e756]: 1m ago
+                          - 'generic "Flair: Calvinist" [ref=e760]': Calvinist
+                      - paragraph [ref=e768]:
+                        - link "https://share.google/QG7FiKU6R2RiBip6i" [ref=e769] [cursor=pointer]:
+                          - /url: https://share.google/QG7FiKU6R2RiBip6i
+              - generic [ref=e774]:
+                - complementary "Community information" [ref=e778]:
+                  - generic [ref=e779]:
+                    - generic [ref=e781]:
+                      - heading "Community Info Section" [level=1] [ref=e782]
+                      - generic [ref=e783]:
+                        - link "r/TrueChristian" [ref=e785] [cursor=pointer]:
+                          - /url: /r/TrueChristian/
+                          - generic [ref=e786]: r/TrueChristian
+                        - button "Joined" [ref=e790] [cursor=pointer]
+                      - generic [ref=e791]:
+                        - generic [ref=e792]: A subreddit for followers of Jesus Christ.
+                        - generic [ref=e793]: A subreddit for Christians of all sorts. We exist to provide a safe haven for all followers of Jesus Christ to discuss God, Jesus, the Bible, and information relative to our beliefs, and to provide non-believers a place to ask questions about Christianity as explained in the scriptures, without fear of mockery or debasement. To post suggestions or ideas for the sub, please go to /r/TrueChristianMeta. Come join us on Discord! https://discord.gg/mGCM9egt77
+                        - button "Show more" [ref=e794] [cursor=pointer]:
+                          - generic [ref=e796]: Show more
+                        - generic [ref=e797]:
+                          - generic [ref=e799]:
+                            - img [ref=e800]
+                            - text: Created May 18, 2012
+                          - generic [ref=e803]:
+                            - img [ref=e804]
+                            - text: Public
+                      - generic [ref=e806]:
+                        - generic [ref=e807]:
+                          - strong [ref=e809]:
+                            - generic: 374K
+                          - generic [ref=e810]: Weekly visitors
+                        - generic [ref=e811]:
+                          - strong [ref=e813]:
+                            - generic: 16K
+                          - generic [ref=e814]: Weekly contributions
+                    - separator [ref=e815]
+                    - generic [ref=e816]:
+                      - heading "User flair" [level=2] [ref=e818]:
+                        - generic [ref=e819]: User flair
+                      - button "Eyshield21" [ref=e821]:
+                        - generic [ref=e823]:
+                          - img [ref=e830]
+                          - generic [ref=e833]: Eyshield21
+                    - separator [ref=e834]
+                    - generic [ref=e835]:
+                      - heading "r/TrueChristian Rules" [level=2] [ref=e837]:
+                        - generic [ref=e838]: r/TrueChristian Rules
+                      - generic [ref=e839]:
+                        - group [ref=e841]:
+                          - generic "1 Be respectful" [ref=e842] [cursor=pointer]:
+                            - generic [ref=e844]:
+                              - generic [ref=e845]:
+                                - generic [ref=e847]: "1"
+                                - heading "Be respectful" [level=2] [ref=e851]
+                              - img [ref=e854]
+                          - paragraph [ref=e860]: Be respectful; no trolling; no profanity or evasions thereof by use of symbols.
+                        - group [ref=e862]:
+                          - generic "2 Do not incite others" [ref=e863] [cursor=pointer]:
+                            - generic [ref=e865]:
+                              - generic [ref=e866]:
+                                - generic [ref=e868]: "2"
+                                - heading "Do not incite others" [level=2] [ref=e872]
+                              - img [ref=e875]
+                          - paragraph [ref=e881]: Posts and comments that are likely to incite others without adding value may be removed at mod discretion. This includes conspiracy theories or wildly unorthodox viewpoints.
+                        - group [ref=e883]:
+                          - generic "3 Do not infringe upon the [Christians Only] tag" [ref=e884] [cursor=pointer]:
+                            - generic [ref=e886]:
+                              - generic [ref=e887]:
+                                - generic [ref=e889]: "3"
+                                - heading "Do not infringe upon the [Christians Only] tag" [level=2] [ref=e893]
+                              - img [ref=e896]
+                          - paragraph [ref=e902]:
+                            - text: Participation in posts marked
+                            - link "Christians Only" [ref=e903] [cursor=pointer]:
+                              - /url: https://www.reddit.com/r/TrueChristian/comments/3pjy4h/a_reiteration_of_the_christian_only_tagging_rules/?utm_source=reddit&utm_medium=usertext&utm_name=TrueChristian&utm_content=t5_2u489
+                            - text: requires affirmation of the
+                            - link "Nicene Creed" [ref=e904] [cursor=pointer]:
+                              - /url: https://www.ccel.org/creeds/nicene.creed.html
+                            - text: . Attempts to circumvent this rule may result in a ban without warning.
+                        - group [ref=e906]:
+                          - generic "4 No proselytizing against the Nicene Creed" [ref=e907] [cursor=pointer]:
+                            - generic [ref=e909]:
+                              - generic [ref=e910]:
+                                - generic [ref=e912]: "4"
+                                - heading "No proselytizing against the Nicene Creed" [level=2] [ref=e916]
+                              - img [ref=e919]
+                          - paragraph [ref=e925]: No proselytizing others toward a belief system not in alignment with the Nicene Creed. Although respectful discourse that challenges our faith is permissible, posts and comments which have the impact of demeaning the viability of Christianity will be removed.
+                        - group [ref=e927]:
+                          - generic "5 Post/comment requirements" [ref=e928] [cursor=pointer]:
+                            - generic [ref=e930]:
+                              - generic [ref=e931]:
+                                - generic [ref=e933]: "5"
+                                - heading "Post/comment requirements" [level=2] [ref=e937]
+                              - img [ref=e940]
+                          - generic [ref=e945]:
+                            - paragraph [ref=e946]: "Posts and comments must:"
+                            - list [ref=e947]:
+                              - listitem [ref=e948]:
+                                - paragraph [ref=e949]: a) Be reasonably related to the purpose of this sub and the topic of a post.
+                              - listitem [ref=e950]:
+                                - paragraph [ref=e951]: b) Not be unreasonably frequent (by user or by topic).
+                              - listitem [ref=e952]:
+                                - paragraph [ref=e953]: c) Not be promoting outside content
+                              - listitem [ref=e954]:
+                                - paragraph [ref=e955]:
+                                  - text: d)
+                                  - link "Have reasonable quality and engage the community" [ref=e956] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/TrueChristian/comments/gg1tjg/rule_5d_explained
+                              - listitem [ref=e957]:
+                                - paragraph [ref=e958]: e) Be Scripturally supported when giving advice or making esoteric claims
+                        - group [ref=e960]:
+                          - generic "6 No brigading" [ref=e961] [cursor=pointer]:
+                            - generic [ref=e963]:
+                              - generic [ref=e964]:
+                                - generic [ref=e966]: "6"
+                                - heading "No brigading" [level=2] [ref=e970]
+                              - img [ref=e973]
+                          - paragraph [ref=e979]: No brigading/vote manipulation. Cross-posting needs mod approval.
+                        - group [ref=e981]:
+                          - generic "7 Follow thread-specific rules." [ref=e982] [cursor=pointer]:
+                            - generic [ref=e984]:
+                              - generic [ref=e985]:
+                                - generic [ref=e987]: "7"
+                                - heading "Follow thread-specific rules." [level=2] [ref=e991]
+                              - img [ref=e994]
+                          - paragraph [ref=e1000]: Follow any thread-specific rules that may be stickied to a post.
+                        - group [ref=e1002]:
+                          - generic "8 No link posts" [ref=e1003] [cursor=pointer]:
+                            - generic [ref=e1005]:
+                              - generic [ref=e1006]:
+                                - generic [ref=e1008]: "8"
+                                - heading "No link posts" [level=2] [ref=e1012]
+                              - img [ref=e1015]
+                          - generic [ref=e1020]:
+                            - paragraph [ref=e1021]: Posts that include links are prohibited and will be removed. Links included in comments are subject to moderator discretion as to removal.
+                            - paragraph [ref=e1022]: Attempts to circumvent this rule by making a text post and putting the link in the comments may result in a ban.
+                        - group [ref=e1024]:
+                          - generic "9 Prayer requests" [ref=e1025] [cursor=pointer]:
+                            - generic [ref=e1027]:
+                              - generic [ref=e1028]:
+                                - generic [ref=e1030]: "9"
+                                - heading "Prayer requests" [level=2] [ref=e1034]
+                              - img [ref=e1037]
+                          - paragraph [ref=e1043]:
+                            - text: Prayer requests shall only be posted in a periodically recurring thread stickied on the front page (or use
+                            - link "r/PrayerRequests" [ref=e1044] [cursor=pointer]:
+                              - /url: /r/PrayerRequests/
+                            - text: ). However, if your post can stand alone without the prayer request, we'll likely leave it up.
+                        - group [ref=e1046]:
+                          - generic "10 General prohibitions" [ref=e1047] [cursor=pointer]:
+                            - generic [ref=e1049]:
+                              - generic [ref=e1050]:
+                                - generic [ref=e1052]: "10"
+                                - heading "General prohibitions" [level=2] [ref=e1056]
+                              - img [ref=e1059]
+                          - generic [ref=e1064]:
+                            - paragraph [ref=e1065]: "This rule covers general, broad-spectrum prohibitions on specific types of content. The following content is not allowed:"
+                            - list [ref=e1066]:
+                              - listitem [ref=e1067]:
+                                - paragraph [ref=e1068]: a) Individual prophecy or special revelation, or dreams. An initial offense will likely result in removal and/or a warning. Multiple offenses will result in a ban.
+                              - listitem [ref=e1069]:
+                                - paragraph [ref=e1070]:
+                                  - text: b) Promotion of liberal theology. For a fuller explanation of what this entails,
+                                  - link "click here" [ref=e1071] [cursor=pointer]:
+                                    - /url: https://www.reddit.com/r/TrueChristian/comments/fwahjk/update_on_rulesenforcement_and_taking_a_stand/
+                                  - text: .
+                        - group [ref=e1073]:
+                          - generic "11 Rule 10 Continued…" [ref=e1074] [cursor=pointer]:
+                            - generic [ref=e1076]:
+                              - generic [ref=e1077]:
+                                - generic [ref=e1079]: "11"
+                                - heading "Rule 10 Continued…" [level=2] [ref=e1083]
+                              - img [ref=e1086]
+                          - list [ref=e1092]:
+                            - listitem [ref=e1093]:
+                              - paragraph [ref=e1094]:
+                                - text: c) Discussions that are primarily political are for
+                                - link "r/TrueChristianPolitics" [ref=e1095] [cursor=pointer]:
+                                  - /url: /r/TrueChristianPolitics/
+                                - text: ", not here."
+                            - listitem [ref=e1096]:
+                              - paragraph [ref=e1097]: d) Denigrating other sects of the faith that affirm the Nicene Creed. You may post exegetical disagreements with their views, but posts and comments that appear condescending will be removed and may result in a temp or permanent ban.
+                    - separator [ref=e1098]
+                    - generic [ref=e1099]:
+                      - heading "Moderators" [level=2] [ref=e1101]:
+                        - generic [ref=e1102]: Moderators
+                      - link "Message Mods" [ref=e1104] [cursor=pointer]:
+                        - /url: https://www.reddit.com/message/compose?to=r/TrueChristian
+                        - generic [ref=e1105]:
+                          - img [ref=e1107]
+                          - generic [ref=e1109]: Message Mods
+                      - generic [ref=e1111]:
+                        - img "u/ruizbujc avatar" [ref=e1116]
+                        - generic [ref=e1119]:
+                          - link "u/ruizbujc" [ref=e1120] [cursor=pointer]:
+                            - /url: /user/ruizbujc/
+                          - 'generic "Flair: Christian" [ref=e1122]': Christian
+                      - generic [ref=e1124]:
+                        - img "u/AutoModerator avatar" [ref=e1129]
+                        - link "u/AutoModerator" [ref=e1133] [cursor=pointer]:
+                          - /url: /user/AutoModerator/
+                      - generic [ref=e1135]:
+                        - img "u/fictitiousfishes avatar" [ref=e1140]
+                        - generic [ref=e1143]:
+                          - link "u/fictitiousfishes" [ref=e1144] [cursor=pointer]:
+                            - /url: /user/fictitiousfishes/
+                          - 'generic "Flair: Christian" [ref=e1146]': Christian
+                      - generic [ref=e1148]:
+                        - img "u/pm_me_judge_reinhold avatar" [ref=e1153]
+                        - generic [ref=e1156]:
+                          - link "u/pm_me_judge_reinhold" [ref=e1157] [cursor=pointer]:
+                            - /url: /user/pm_me_judge_reinhold/
+                          - 'generic "Flair: Christian" [ref=e1159]': Christian
+                      - generic [ref=e1161]:
+                        - img [ref=e1168]
+                        - generic [ref=e1172]:
+                          - link "u/Deliver-us" [ref=e1173] [cursor=pointer]:
+                            - /url: /user/Deliver-us/
+                          - 'generic "Flair: Christian" [ref=e1175]': Christian
+                      - generic [ref=e1177]:
+                        - img "u/DoktorLuther avatar" [ref=e1182]
+                        - link "u/DoktorLuther" [ref=e1186] [cursor=pointer]:
+                          - /url: /user/DoktorLuther/
+                      - generic [ref=e1188]:
+                        - img "u/bears123456789 avatar" [ref=e1193]
+                        - generic [ref=e1196]:
+                          - link "u/bears123456789" [ref=e1197] [cursor=pointer]:
+                            - /url: /user/bears123456789/
+                          - 'generic "Flair: Christian" [ref=e1199]': Christian
+                      - generic [ref=e1201]:
+                        - img [ref=e1208]
+                        - generic [ref=e1212]:
+                          - link "u/Dr_Acula7489" [ref=e1213] [cursor=pointer]:
+                            - /url: /user/Dr_Acula7489/
+                          - 'generic "Flair: Eastern Orthodox" [ref=e1215]': Eastern Orthodox
+                      - generic [ref=e1217]:
+                        - img "u/OrangeYoshiDude avatar" [ref=e1222]
+                        - generic [ref=e1225]:
+                          - link "u/OrangeYoshiDude" [ref=e1226] [cursor=pointer]:
+                            - /url: /user/OrangeYoshiDude/
+                          - 'generic "Flair: Christian" [ref=e1228]': Christian
+                      - generic [ref=e1230]:
+                        - img "u/cprimo82 avatar" [ref=e1235]
+                        - link "u/cprimo82" [ref=e1239] [cursor=pointer]:
+                          - /url: /user/cprimo82/
+                      - link "View all moderators" [ref=e1240] [cursor=pointer]:
+                        - /url: /mod/TrueChristian/moderators/
+                        - generic [ref=e1242]: View all moderators
+                - generic [ref=e1244]:
+                  - link "Reddit Rules" [ref=e1247] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/content-policy
+                  - link "Privacy Policy" [ref=e1250] [cursor=pointer]:
+                    - /url: https://www.reddit.com/policies/privacy-policy
+                  - link "User Agreement" [ref=e1253] [cursor=pointer]:
+                    - /url: https://www.redditinc.com/policies/user-agreement
+                  - link "Your Privacy Choices" [ref=e1256] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                  - link "Accessibility" [ref=e1259] [cursor=pointer]:
+                    - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                  - link "Reddit, Inc. © 2026. All rights reserved." [ref=e1261] [cursor=pointer]:
+                    - /url: https://redditinc.com
+          - generic [ref=e1263]:
+            - button "Collapse Navigation" [ref=e1266] [cursor=pointer]:
+              - img [ref=e1269]
+              - generic [ref=e1271]:
+                - generic: Collapse Navigation
+            - navigation "Primary" [ref=e1276]:
+              - generic [ref=e1278]:
+                - link "Home" [ref=e1280] [cursor=pointer]:
+                  - /url: /?feed=home
+                  - generic [ref=e1281]:
+                    - img [ref=e1283]
+                    - generic [ref=e1286]: Home
+                - link "Popular" [ref=e1288] [cursor=pointer]:
+                  - /url: /r/popular/
+                  - generic [ref=e1289]:
+                    - img [ref=e1291]
+                    - generic [ref=e1294]: Popular
+                - link "Explore" [ref=e1296] [cursor=pointer]:
+                  - /url: /explore/
+                  - generic [ref=e1297]:
+                    - img [ref=e1299]
+                    - generic [ref=e1302]: Explore
+                - link "All" [ref=e1304] [cursor=pointer]:
+                  - /url: /r/all/
+                  - generic [ref=e1305]:
+                    - img [ref=e1307]
+                    - generic [ref=e1310]: All
+                - button "Start a community" [ref=e1311] [cursor=pointer]:
+                  - generic [ref=e1312]:
+                    - img [ref=e1314]
+                    - generic [ref=e1317]: Start a community
+              - separator [ref=e1318]
+              - group [ref=e1322]:
+                - generic "GAMES ON REDDIT" [ref=e1323] [cursor=pointer]:
+                  - generic [ref=e1324]:
+                    - generic [ref=e1329]:
+                      - generic: GAMES ON REDDIT
+                    - img [ref=e1332]
+                - generic [ref=e1335]:
+                  - link "Featured Game" [ref=e1339] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/Pixelary/comments/1r0ishj?entry_point=games_drawer_featured_game
+                    - generic [ref=e1341]:
+                      - generic [ref=e1345]:
+                        - heading "Pixelary" [level=3] [ref=e1346]
+                        - paragraph [ref=e1347]: Draw, guess, laugh!
+                        - paragraph [ref=e1348]:
+                          - generic [ref=e1349]: 570K
+                          - text: monthly players
+                      - generic [ref=e1352]: NEW
+                  - generic [ref=e1354]:
+                    - link "romkerl" [ref=e1356] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/romkerl/comments/1r00bl1?entry_point=games_drawer_personalized_game
+                      - generic [ref=e1357]:
+                        - img [ref=e1362]
+                        - generic [ref=e1366]: romkerl
+                    - link "Quiz Planet" [ref=e1368] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/QuizPlanetGame/comments/1r0nu0q?entry_point=games_drawer_personalized_game
+                      - generic [ref=e1369]:
+                        - img [ref=e1374]
+                        - generic [ref=e1378]: Quiz Planet
+                    - link "BattleBirds" [ref=e1380] [cursor=pointer]:
+                      - /url: https://www.reddit.com/r/BattleBirds/comments/1r056cw?entry_point=games_drawer_personalized_game
+                      - generic [ref=e1381]:
+                        - img [ref=e1386]
+                        - generic [ref=e1390]: BattleBirds
+                  - link "Discover More Games" [ref=e1392] [cursor=pointer]:
+                    - /url: /r/GamesOnReddit
+                    - generic [ref=e1393]:
+                      - img [ref=e1395]
+                      - generic [ref=e1399]: Discover More Games
+              - separator [ref=e1400]
+              - group [ref=e1402]:
+                - generic "MODERATION" [ref=e1403] [cursor=pointer]:
+                  - generic [ref=e1405]:
+                    - generic [ref=e1408]: MODERATION
+                    - img [ref=e1411]
+                - generic [ref=e1414]:
+                  - link "Mod Queue" [ref=e1416] [cursor=pointer]:
+                    - /url: /mod/queue
+                    - generic [ref=e1417]:
+                      - img [ref=e1419]
+                      - generic [ref=e1423]: Mod Queue
+                  - link "Mod Mail" [ref=e1425] [cursor=pointer]:
+                    - /url: https://reddit.com/mail/all
+                    - generic [ref=e1426]:
+                      - img [ref=e1428]
+                      - generic [ref=e1432]: Mod Mail
+                  - link "r/Mod" [ref=e1434] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/mod/
+                    - generic [ref=e1435]:
+                      - img [ref=e1437]
+                      - generic [ref=e1441]: r/Mod
+                  - link "Manage" [ref=e1443] [cursor=pointer]:
+                    - /url: /mod/moderated-communities
+                    - generic [ref=e1444]:
+                      - img [ref=e1446]
+                      - generic [ref=e1450]: Manage
+                  - link "r/Samaritan_daily" [ref=e1454] [cursor=pointer]:
+                    - /url: /r/Samaritan_daily/
+                    - generic [ref=e1455]:
+                      - img [ref=e1460]
+                      - generic [ref=e1463]: r/Samaritan_daily
+                    - button "Add community to favorites" [ref=e1466]:
+                      - img [ref=e1469]
+              - separator [ref=e1471]
+              - generic [ref=e1474]:
+                - group [ref=e1476]:
+                  - generic "RECENT" [ref=e1477]:
+                    - generic [ref=e1479] [cursor=pointer]:
+                      - generic [ref=e1483]: RECENT
+                      - img [ref=e1486]
+                  - generic [ref=e1489]:
+                    - link "r/TrueChristian" [ref=e1490] [cursor=pointer]:
+                      - /url: /r/TrueChristian/
+                      - generic [ref=e1491]:
+                        - img [ref=e1497]
+                        - generic [ref=e1501]: r/TrueChristian
+                    - link "r/PrayerRequests" [ref=e1502] [cursor=pointer]:
+                      - /url: /r/PrayerRequests/
+                      - generic [ref=e1503]:
+                        - img [ref=e1508]
+                        - generic [ref=e1511]: r/PrayerRequests
+                - separator [ref=e1512]
+              - group [ref=e1514]:
+                - generic "COMMUNITIES" [ref=e1515] [cursor=pointer]:
+                  - generic [ref=e1517]:
+                    - generic [ref=e1520]: COMMUNITIES
+                    - img [ref=e1523]
+                - generic [ref=e1526]:
+                  - link "Manage Communities" [ref=e1527] [cursor=pointer]:
+                    - /url: /user/Eyshield21/communities
+                    - generic [ref=e1528]:
+                      - img [ref=e1530]
+                      - generic [ref=e1533]: Manage Communities
+                  - generic [ref=e1535]:
+                    - link "r/AskAChristian" [ref=e1537] [cursor=pointer]:
+                      - /url: /r/AskAChristian/
+                      - generic [ref=e1538]:
+                        - img [ref=e1543]
+                        - generic [ref=e1546]: r/AskAChristian
+                      - button "Add community to favorites" [ref=e1549]:
+                        - img [ref=e1552]
+                    - link "r/Christian" [ref=e1555] [cursor=pointer]:
+                      - /url: /r/Christian/
+                      - generic [ref=e1556]:
+                        - img [ref=e1561]
+                        - generic [ref=e1564]: r/Christian
+                      - button "Add community to favorites" [ref=e1567]:
+                        - img [ref=e1570]
+                    - link "r/ChristianDating" [ref=e1573] [cursor=pointer]:
+                      - /url: /r/ChristianDating/
+                      - generic [ref=e1574]:
+                        - img [ref=e1579]
+                        - generic [ref=e1582]: r/ChristianDating
+                      - button "Add community to favorites" [ref=e1585]:
+                        - img [ref=e1588]
+                    - link "r/Christianity" [ref=e1591] [cursor=pointer]:
+                      - /url: /r/Christianity/
+                      - generic [ref=e1592]:
+                        - img [ref=e1597]
+                        - generic [ref=e1600]: r/Christianity
+                      - button "Add community to favorites" [ref=e1603]:
+                        - img [ref=e1606]
+                    - link "r/Christianmarriage" [ref=e1609] [cursor=pointer]:
+                      - /url: /r/Christianmarriage/
+                      - generic [ref=e1610]:
+                        - img [ref=e1616]
+                        - generic [ref=e1620]: r/Christianmarriage
+                      - button "Add community to favorites" [ref=e1623]:
+                        - img [ref=e1626]
+                    - link "r/Christians" [ref=e1629] [cursor=pointer]:
+                      - /url: /r/Christians/
+                      - generic [ref=e1630]:
+                        - img [ref=e1635]
+                        - generic [ref=e1638]: r/Christians
+                      - button "Add community to favorites" [ref=e1641]:
+                        - img [ref=e1644]
+                    - link "r/CitiesSkylines" [ref=e1647] [cursor=pointer]:
+                      - /url: /r/CitiesSkylines/
+                      - generic [ref=e1648]:
+                        - img [ref=e1653]
+                        - generic [ref=e1656]: r/CitiesSkylines
+                      - button "Add community to favorites" [ref=e1659]:
+                        - img [ref=e1662]
+                    - link "r/Entrepreneur" [ref=e1665] [cursor=pointer]:
+                      - /url: /r/Entrepreneur/
+                      - generic [ref=e1666]:
+                        - img [ref=e1671]
+                        - generic [ref=e1674]: r/Entrepreneur
+                      - button "Add community to favorites" [ref=e1677]:
+                        - img [ref=e1680]
+                    - link "r/Jesus" [ref=e1683] [cursor=pointer]:
+                      - /url: /r/Jesus/
+                      - generic [ref=e1684]:
+                        - img [ref=e1690]
+                        - generic [ref=e1694]: r/Jesus
+                      - button "Add community to favorites" [ref=e1697]:
+                        - img [ref=e1700]
+                    - link "r/NewMods" [ref=e1703] [cursor=pointer]:
+                      - /url: /r/NewMods/
+                      - generic [ref=e1704]:
+                        - img [ref=e1709]
+                        - generic [ref=e1712]: r/NewMods
+                      - button "Add community to favorites" [ref=e1715]:
+                        - img [ref=e1718]
+                    - link "r/PrayerRequests" [ref=e1721] [cursor=pointer]:
+                      - /url: /r/PrayerRequests/
+                      - generic [ref=e1722]:
+                        - img [ref=e1727]
+                        - generic [ref=e1730]: r/PrayerRequests
+                      - button "Add community to favorites" [ref=e1733]:
+                        - img [ref=e1736]
+                    - link "r/productivity" [ref=e1739] [cursor=pointer]:
+                      - /url: /r/productivity/
+                      - generic [ref=e1740]:
+                        - img [ref=e1745]
+                        - generic [ref=e1748]: r/productivity
+                      - button "Add community to favorites" [ref=e1751]:
+                        - img [ref=e1754]
+                    - link "r/RPChristians" [ref=e1757] [cursor=pointer]:
+                      - /url: /r/RPChristians/
+                      - generic [ref=e1758]:
+                        - img [ref=e1763]
+                        - generic [ref=e1766]: r/RPChristians
+                      - button "Add community to favorites" [ref=e1769]:
+                        - img [ref=e1772]
+                    - link "r/Samaritan_daily" [ref=e1775] [cursor=pointer]:
+                      - /url: /r/Samaritan_daily/
+                      - generic [ref=e1776]:
+                        - img [ref=e1781]
+                        - generic [ref=e1784]: r/Samaritan_daily
+                      - button "Add community to favorites" [ref=e1787]:
+                        - img [ref=e1790]
+                    - link "r/SideProject" [ref=e1793] [cursor=pointer]:
+                      - /url: /r/SideProject/
+                      - generic [ref=e1794]:
+                        - img [ref=e1799]
+                        - generic [ref=e1802]: r/SideProject
+                      - button "Add community to favorites" [ref=e1805]:
+                        - img [ref=e1808]
+                    - link "r/StarWars" [ref=e1811] [cursor=pointer]:
+                      - /url: /r/StarWars/
+                      - generic [ref=e1812]:
+                        - img [ref=e1817]
+                        - generic [ref=e1820]: r/StarWars
+                      - button "Add community to favorites" [ref=e1823]:
+                        - img [ref=e1826]
+                    - link "r/SuicideBereavement" [ref=e1829] [cursor=pointer]:
+                      - /url: /r/SuicideBereavement/
+                      - generic [ref=e1830]:
+                        - img [ref=e1835]
+                        - generic [ref=e1838]: r/SuicideBereavement
+                      - button "Add community to favorites" [ref=e1841]:
+                        - img [ref=e1844]
+                    - link "r/trance" [ref=e1847] [cursor=pointer]:
+                      - /url: /r/trance/
+                      - generic [ref=e1848]:
+                        - img [ref=e1853]
+                        - generic [ref=e1856]: r/trance
+                      - button "Add community to favorites" [ref=e1859]:
+                        - img [ref=e1862]
+                    - link "r/TrueChristian" [ref=e1865] [cursor=pointer]:
+                      - /url: /r/TrueChristian/
+                      - generic [ref=e1866]:
+                        - img [ref=e1872]
+                        - generic [ref=e1876]: r/TrueChristian
+                      - button "Add community to favorites" [ref=e1879]:
+                        - img [ref=e1882]
+              - separator [ref=e1884]
+              - navigation "Reddit resources" [ref=e1885]:
+                - group [ref=e1887]:
+                  - generic "RESOURCES" [ref=e1888] [cursor=pointer]:
+                    - generic [ref=e1890]:
+                      - generic [ref=e1893]: RESOURCES
+                      - img [ref=e1896]
+                  - generic [ref=e1899]:
+                    - link "About Reddit" [ref=e1901] [cursor=pointer]:
+                      - /url: https://www.redditinc.com
+                      - generic [ref=e1902]:
+                        - img [ref=e1904]
+                        - generic [ref=e1908]: About Reddit
+                    - link "Advertise" [ref=e1910] [cursor=pointer]:
+                      - /url: https://ads.reddit.com/register?utm_source=web3x_consumer&utm_name=left_nav_cta
+                      - generic [ref=e1911]:
+                        - img [ref=e1913]
+                        - generic [ref=e1917]: Advertise
+                    - link "Developer Platform" [ref=e1919] [cursor=pointer]:
+                      - /url: https://developers.reddit.com/?utm_source=reddit&utm_medium=left_nav_resources
+                      - generic [ref=e1920]:
+                        - img [ref=e1922]
+                        - generic [ref=e1926]: Developer Platform
+                    - link "Reddit Pro BETA" [ref=e1928] [cursor=pointer]:
+                      - /url: /reddit-pro?utm_source=reddit&utm_medium=left_nav_resources
+                      - generic [ref=e1929]:
+                        - img [ref=e1931]
+                        - generic [ref=e1935]:
+                          - generic [ref=e1936]: Reddit Pro
+                          - generic [ref=e1937]: BETA
+                    - link "Help" [ref=e1939] [cursor=pointer]:
+                      - /url: https://support.reddithelp.com/hc?utm_source=reddit&utm_medium=footer&utm_campaign=evergreen
+                      - generic [ref=e1940]:
+                        - img [ref=e1942]
+                        - generic [ref=e1946]: Help
+                    - link "Blog" [ref=e1948] [cursor=pointer]:
+                      - /url: https://redditblog.com/
+                      - generic [ref=e1949]:
+                        - img [ref=e1951]
+                        - generic [ref=e1955]: Blog
+                    - link "Careers" [ref=e1957] [cursor=pointer]:
+                      - /url: https://www.redditinc.com/careers
+                      - generic [ref=e1958]:
+                        - img [ref=e1960]
+                        - generic [ref=e1964]: Careers
+                    - link "Press" [ref=e1966] [cursor=pointer]:
+                      - /url: https://www.redditinc.com/press
+                      - generic [ref=e1967]:
+                        - img [ref=e1969]
+                        - generic [ref=e1973]: Press
+                    - separator [ref=e1974]
+                    - link "Communities" [ref=e1976] [cursor=pointer]:
+                      - /url: https://www.reddit.com/best/communities/1/
+                      - generic [ref=e1977]:
+                        - img [ref=e1979]
+                        - generic [ref=e1983]: Communities
+                    - link "Best of Reddit" [ref=e1985] [cursor=pointer]:
+                      - /url: https://www.reddit.com/posts/2026/global/
+                      - generic [ref=e1986]:
+                        - img [ref=e1988]
+                        - generic [ref=e1993]: Best of Reddit
+                    - separator [ref=e1994]
+                    - link "Reddit Rules" [ref=e1996] [cursor=pointer]:
+                      - /url: https://www.redditinc.com/policies/content-policy
+                      - generic [ref=e1997]:
+                        - img [ref=e1999]
+                        - generic [ref=e2003]: Reddit Rules
+                    - link "Privacy Policy" [ref=e2005] [cursor=pointer]:
+                      - /url: https://www.reddit.com/policies/privacy-policy
+                      - generic [ref=e2006]:
+                        - img [ref=e2008]
+                        - generic [ref=e2012]: Privacy Policy
+                    - link "User Agreement" [ref=e2014] [cursor=pointer]:
+                      - /url: https://www.redditinc.com/policies/user-agreement
+                      - generic [ref=e2015]:
+                        - img [ref=e2017]
+                        - generic [ref=e2021]: User Agreement
+                    - link "Your Privacy Choices" [ref=e2023] [cursor=pointer]:
+                      - /url: https://support.reddithelp.com/hc/articles/43980704794004
+                      - generic [ref=e2024]:
+                        - img [ref=e2026]
+                        - generic [ref=e2030]: Your Privacy Choices
+                    - link "Accessibility" [ref=e2032] [cursor=pointer]:
+                      - /url: https://support.reddithelp.com/hc/sections/38303584022676-Accessibility
+                      - generic [ref=e2033]:
+                        - img [ref=e2035]
+                        - generic [ref=e2040]: Accessibility
+              - link "Reddit, Inc. © 2026. All rights reserved." [ref=e2042] [cursor=pointer]:
+                - /url: https://redditinc.com

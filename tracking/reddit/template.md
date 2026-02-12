@@ -18,6 +18,7 @@ Only track subreddits listed in `resources/subreddits.md`.
 | r/ChristianDating | 0 | 3 | - |
 | r/Christian | 0 | 3 | - |
 | r/Samaritan_daily | 0 | 3 | - |
+<!-- For r/Samaritan_daily: count = new posts created only (do not comment on existing posts). -->
 
 **Today's Total Comments**: 0
 **Next Target Subreddit**: (Select from subreddits with no activity yet in this table)
@@ -37,6 +38,8 @@ Add in this format after each comment:
 ```
 Full comment written
 ```
+
+For r/Samaritan_daily (new posts only): log as new post. Post = [Title of new thread](URL of new thread). Comment Link / Comment Content = N/A (new post).
 -->
 
 (No activity today)
