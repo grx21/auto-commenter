@@ -184,10 +184,22 @@ Strategy: Build karma through genuine participation (80%+ non-promotional), shil
 **Tone:** Relaxed  
 **Rules:** Unknown
 
+**⚠️ Activity rule: New posts only. Do NOT comment on existing posts.**  
+- Only create new posts (submit new threads) in this subreddit.  
+- Do not comment on any existing post in r/Samaritan_daily.  
+- Daily quota = new posts created (e.g. 3), not comments.
+
+**Post style: Slight controversy / "stop in their tracks"**
+- New posts should be thought-provoking, not neutral. Aim for a small amount of controversy so readers stop scrolling.
+- Strong options: (1) Pick a Bible passage and analyze it (uncommon angle or tension). (2) Say a well-known concept or verse is often misinterpreted and briefly explain. (3) Take a clear, arguable position on a scriptural or theological point.
+- Stay within sub rules: Scripture first, respectful, no politics/culture-war, no insults.
+- Avoid generic check-ins ("How's your week?") or purely supportive prompts ("Drop a line if you need a listening ear"). Prefer posts that invite disagreement or "I never read it that way."
+
 **Shilling Opportunity:** ⭐⭐⭐⭐⭐  
 **Strategy:**
 
 - Core Samaritan page - shilling possible - also need posts to be written from scratch
+- Create new discussion prompts / threads; do not reply to others' posts
 
 **Karma Building:** N/A
 

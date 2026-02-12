@@ -54,10 +54,12 @@ These rules apply to every comment in the batch to minimize token usage:
 [2] Select subreddit under quota (by priority criteria)
     → Check subreddit specifics in resources/subreddits.md:
       rules, community nature, good topics to answer
+    → If subreddit is r/Samaritan_daily: new posts only (no comments). Use Step 2-Samaritan_daily.
     ↓
-[3] Start comment writing loop for that subreddit
+[3] Start activity loop for that subreddit
     ↓
-    [3-1] Execute SKILL.md Step 2-8 (subreddit already selected)
+    [3-1] If r/Samaritan_daily: execute SKILL.md Step 2-Samaritan_daily (create new posts only; posts = slight controversy / stop-in-tracks, see subreddits.md).
+          Else: execute SKILL.md Step 2-8 (comment on existing posts).
     ↓
     [3-2] Update tracking file
     ↓

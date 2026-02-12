@@ -56,10 +56,13 @@ This skill uses **Playwright MCP** to interact with Reddit.
    - Core community rules
    - Community nature
    - Good topics to answer
+   - ⚠️ If subreddit is r/Samaritan_daily: new posts only (do not comment). Go to Step 2-Samaritan_daily.
    → Reflect this information when selecting posts
 ```
 
 ### Step 2: Access Reddit and Explore Posts
+
+**⚠️ If selected subreddit is r/Samaritan_daily:** do NOT run the steps below. Run **Step 2-Samaritan_daily** (create new posts only) instead.
 
 ```
 1. Access Reddit with Playwright MCP
@@ -90,6 +93,19 @@ This skill uses **Playwright MCP** to interact with Reddit.
 6. Secure URL of selected post
    → Check and record post link in snapshot
    → Navigate directly to this URL in next Step
+```
+
+### Step 2-Samaritan_daily: Create new posts only (no comments)
+
+**Use only when the selected subreddit is r/Samaritan_daily.**
+
+```
+1. Do NOT comment on any existing post in r/Samaritan_daily.
+2. Navigate to submit: browser_navigate("https://www.reddit.com/r/Samaritan_daily/submit")
+3. Create a new post (title + body). Posts must have slight controversy: make people stop in their tracks (e.g. analyze a Bible passage in an unexpected way, or argue that a common interpretation of a verse or concept is wrong). Avoid bland check-ins or purely supportive prompts. Match subreddit tone and post-style guidance in resources/subreddits.md § r/Samaritan_daily.
+4. Submit the post. Do not add comments to existing threads.
+5. Update tracking: log as new post (post URL, topic summary). Count toward r/Samaritan_daily quota as "new posts" not "comments".
+6. Repeat until r/Samaritan_daily quota (e.g. 3 new posts) is reached, then move to next subreddit.
 ```
 
 ### Step 3: Deep Analysis of Post Content and Existing Comments
@@ -178,6 +194,10 @@ This skill uses **Playwright MCP** to interact with Reddit.
 ### Step 6: Post Comment
 
 ```
+0. (Optional) Validate comment before posting:
+   → Run: node scripts/validate-reddit-comment.js "<comment text>"
+   → If exit code 1 (em-dash or other rule violation), revise comment and re-validate. Do not post until valid.
+
 1. Click comment input box
    → Check comment input element after browser_snapshot()
    → browser_click(comment box ref)
