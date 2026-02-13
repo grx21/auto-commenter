@@ -14,7 +14,7 @@
   <a href="https://discord.gg/vRp5Zh3HGu"><img src="https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord"></a>
 </p>
 
->A marketing automation framework using Claude Skills and Playwright MCP for authentic community engagement. Features personalized comment generation, target community selection, daily tracking, batch execution, and lead identification.
+>A marketing automation framework using Claude Skills and browser MCP (cursor-ide-browser or Playwright) for authentic community engagement. Features personalized comment generation, target community selection, daily tracking, batch execution, and lead identification.
 
 **Currently supports Reddit** — easily extensible to Twitter, LinkedIn, Discord, and other platforms by adding personalization files.
 
@@ -118,7 +118,7 @@ auto-commenter/
 ```
 "Fill today's quota"
 ```
-→ Fills all subreddit quotas (default: 3 per subreddit, 5-15 min intervals)
+→ Fills all subreddit quotas (default: 3 per subreddit)
 
 ### Check Activity
 ```
@@ -176,7 +176,7 @@ MIT License - see [LICENSE](LICENSE)
 
 ---
 
-**Built with [Claude AI](https://claude.ai) and [Playwright MCP](https://github.com/executeautomation/playwright-mcp)**
+**Built with [Claude AI](https://claude.ai) and browser MCP (cursor-ide-browser in Cursor, or [Playwright MCP](https://github.com/executeautomation/playwright-mcp) in Claude Desktop)**
 
 ---
 

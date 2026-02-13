@@ -10,9 +10,9 @@ license: MIT
 
 ---
 
-## Required Tool: Playwright MCP
+## Required Tool: Browser MCP (cursor-ide-browser)
 
-This skill uses **Playwright MCP** to interact with Reddit.
+This skill uses **cursor-ide-browser** MCP to interact with Reddit. (Use cursor-ide-browser, not Playwright MCP — Playwright hits "User rejected MCP" with no approval UI in Cursor.)
 
 ### Main MCP Tools
 | MCP Tool | Purpose |
@@ -45,7 +45,6 @@ This skill uses **Playwright MCP** to interact with Reddit.
 2. Check activity status table by subreddit:
    - How many comments posted in each subreddit today
    - Check subreddits under daily limit (3)
-   - Check last comment time (minimum 5-10 minute intervals)
 
 3. Select next subreddit for commenting:
    - Prioritize subreddits with no activity today or under limit
@@ -56,19 +55,17 @@ This skill uses **Playwright MCP** to interact with Reddit.
    - Core community rules
    - Community nature
    - Good topics to answer
-   - ⚠️ If subreddit is r/Samaritan_daily: new posts only (do not comment). Go to Step 2-Samaritan_daily.
    → Reflect this information when selecting posts
 ```
 
 ### Step 2: Access Reddit and Explore Posts
 
-**⚠️ If selected subreddit is r/Samaritan_daily:** do NOT run the steps below. Run **Step 2-Samaritan_daily** (create new posts only) instead.
-
 ```
-1. Access Reddit with Playwright MCP
-   → browser_navigate("https://www.reddit.com/r/{selected_subreddit}/new/")
+1. Access Reddit with browser MCP
+   → Use **old.reddit.com** for commenting (new Reddit doesn't expose comment textbox in accessibility tree)
+   → browser_navigate("https://old.reddit.com/r/{selected_subreddit}/new/")
    or
-   → browser_navigate("https://www.reddit.com/r/{selected_subreddit}/rising/")
+   → browser_navigate("https://old.reddit.com/r/{selected_subreddit}/rising/")
 
 2. Page snapshot
    → browser_snapshot()
@@ -95,19 +92,6 @@ This skill uses **Playwright MCP** to interact with Reddit.
    → Navigate directly to this URL in next Step
 ```
 
-### Step 2-Samaritan_daily: Create new posts only (no comments)
-
-**Use only when the selected subreddit is r/Samaritan_daily.**
-
-```
-1. Do NOT comment on any existing post in r/Samaritan_daily.
-2. Navigate to submit: browser_navigate("https://www.reddit.com/r/Samaritan_daily/submit")
-3. Create a new post (title + body). Posts must have slight controversy: make people stop in their tracks (e.g. analyze a Bible passage in an unexpected way, or argue that a common interpretation of a verse or concept is wrong). Avoid bland check-ins or purely supportive prompts. Match subreddit tone and post-style guidance in resources/subreddits.md § r/Samaritan_daily.
-4. Submit the post. Do not add comments to existing threads.
-5. Update tracking: log as new post (post URL, topic summary). Count toward r/Samaritan_daily quota as "new posts" not "comments".
-6. Repeat until r/Samaritan_daily quota (e.g. 3 new posts) is reached, then move to next subreddit.
-```
-
 ### Step 3: Deep Analysis of Post Content and Existing Comments
 
 ```
@@ -115,6 +99,7 @@ This skill uses **Playwright MCP** to interact with Reddit.
 
 0. Navigate directly to post
    → browser_navigate(post URL secured in Step 2)
+   → Use old.reddit.com URLs for post links (comment form is accessible there)
    → Navigate directly to URL, don't click on post (prevents click errors)
    → browser_snapshot()
 
@@ -193,23 +178,21 @@ This skill uses **Playwright MCP** to interact with Reddit.
 
 ### Step 6: Post Comment
 
+**Preferred (reliable):** Use the Playwright script so posting works even when browser MCP doesn't return element refs:
+
 ```
-0. (Optional) Validate comment before posting:
-   → Run: node scripts/validate-reddit-comment.js "<comment text>"
-   → If exit code 1 (em-dash or other rule violation), revise comment and re-validate. Do not post until valid.
+0. (Optional) Validate: node scripts/validate-reddit-comment.js "<comment text>"
+1. Post: node scripts/post-reddit-comment.js "<post_url>" "<comment text>"
+   → Uses scripts/post-reddit-comment.js (includes JS form-submit fallback for old Reddit; do not remove).
+2. Batch: node scripts/post-reddit-batch.js [MANUAL_POST_YYYY-MM-DD.md]
+   → Log in once via node scripts/login-reddit.js if needed.
+```
 
-1. Click comment input box
-   → Check comment input element after browser_snapshot()
-   → browser_click(comment box ref)
+**Alternative (browser MCP):** Only if snapshot returns element refs:
 
-2. Input comment content
-   → browser_type(reviewed comment)
-
-3. Click post button
-   → browser_click(post button ref)
-
-4. Secure comment URL
-   → Copy comment permalink after posting
+```
+1. browser_click(comment box ref) → browser_type(comment) → browser_click(post button ref)
+2. If refs are not returned, use the Playwright script above instead.
 ```
 
 ### Step 7: Judge Potential Customer (Optional)
@@ -272,9 +255,10 @@ Update tracking/reddit/[today's-date].md file:
 4. **Spam Prevention**: Absolutely NO copy-pasting same content
 5. **Review Required**: Max 1 revision per comment — skip post if still failing
 6. **⚠️ Step 3 Required**: NEVER write comment without analyzing post content. Judging only by keywords can cause serious errors
-7. **⚠️ Minimize Playwright MCP tokens**:
-   - Don't pass entire context when calling Playwright MCP
+7. **⚠️ Minimize browser MCP tokens**:
+   - Don't pass entire context when calling browser MCP
    - Use fixed minimal format: `"Navigate to [URL]"`, `"Click [ref]"`, `"Type: [text]"`
    - Prevent errors from excessive input tokens
 8. **⚠️ Post Navigation**: Use browser_navigate directly with URL instead of clicking post (prevents click errors)
+9. **⚠️ Use cursor-ide-browser**: Playwright MCP fails with "User rejected MCP" in Cursor. Use cursor-ide-browser MCP instead.
 9. **⚠️ Candidate limit**: Only review first 5 posts per listing page. No suitable post = report and move on

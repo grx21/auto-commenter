@@ -1,7 +1,7 @@
 # Reddit Leads
 
 > Potential customers discovered during Reddit activities
-> Track users with high relevance to your product
+> Track users with high relevance to Sauna (AI work OS, automation, ops workflows)
 
 ---
 
@@ -29,21 +29,21 @@ When discovering new leads, add in this format:
 
 ## Lead Selection Criteria
 
-### High Relevance
-- Directly mentions your product category
-- Complains about problems your product solves
-- Mentions using multiple similar tools
-- Shows need for your specific solution
-- **Mentions needing your core feature**
-- **Works in environment requiring your solution**
+### High Relevance (Sauna fit)
+- Drowning in fragmented tools (email, docs, CRM, Slack) with no unified context
+- Complains about brittle automation (Zapier/Make breaking, RPA scripts failing)
+- Manual coordination that never compounds
+- Hard to delegate because instructions/context aren't preserved
+- Re-explaining "why/what/how" across threads and docs
+- Ops/operations teams stitching many tools together
 
 ### Medium Relevance
-- Developer/PM interested in your tool category
-- Interest in related technologies
-- Early adopter of productivity tools
+- SaaS founder or PM interested in automation
+- Power user of ChatGPT/Cursor looking for persistent context
+- Early adopter of productivity/AI tools
 
 ### Low Relevance
-- General interest in your field
+- General interest in AI or automation
 - Information seeking without specific problem mention
 
 ---

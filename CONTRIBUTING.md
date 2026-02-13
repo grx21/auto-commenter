@@ -32,7 +32,7 @@ Before contributing, please:
 ### Prerequisites
 
 - Claude Desktop or Claude CLI
-- Playwright MCP server
+- Browser MCP (cursor-ide-browser in Cursor, or Playwright MCP in Claude Desktop)
 - Node.js (for MCP setup)
 - Git
 

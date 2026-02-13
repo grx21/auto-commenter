@@ -1,5 +1,11 @@
 # Bug Report: MCP Tool Calls Rejected Without Approval Prompt
 
+## Workaround (Use cursor-ide-browser)
+
+**Fix:** Use **cursor-ide-browser** MCP instead of Playwright MCP. cursor-ide-browser works for the same actions (navigate, click, type, snapshot) and does not hit this approval bug. See SKILL.md and BATCH.md — the skill has been updated to reference cursor-ide-browser.
+
+---
+
 ## Summary
 
 MCP tool calls (Playwright browser_navigate and others) are rejected with "User rejected MCP: Review cancelled or failed" even though no approval prompt or UI element appears for the user to approve or reject the action.

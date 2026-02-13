@@ -54,11 +54,11 @@ cd auto-commenter
 npm install
 ```
 
-This installs the Playwright MCP server.
+### Step 3: MCP Setup (Browser Automation)
 
-### Step 3: Verify MCP Setup
+**For Cursor IDE:** Use **cursor-ide-browser** MCP (built-in or in user MCP config). Playwright MCP hits "User rejected MCP" with no approval UI in Cursor — cursor-ide-browser works without this bug.
 
-Check that `.mcp/settings.json` exists and contains:
+**For Claude Desktop:** Check that `.mcp/settings.json` exists and contains:
 
 ```json
 {
@@ -206,7 +206,8 @@ Save the personalization guide as:
 ### If Something Goes Wrong
 
 - Check that you're logged into Reddit
-- Verify Playwright MCP is installed: `npx @playwright/mcp@latest --version`
+- **Cursor:** Use cursor-ide-browser MCP (Playwright hits "User rejected MCP" with no approval UI)
+- **Claude Desktop:** Verify Playwright MCP is installed: `npx @playwright/mcp@latest --version`
 - Make sure personalization file exists
 - Check Claude's error messages
 
@@ -239,11 +240,10 @@ Fill today's quota using the reddit-commenter skill
 
 Claude will:
 - Report progress after each subreddit
-- Wait 5-15 minutes between subreddits
 - Skip subreddits with no suitable posts
 - Provide a completion report
 
-**Expected duration:** 1-2 hours per subreddit (with wait times)
+**Expected duration:** varies by subreddit
 
 ---
 
@@ -295,7 +295,6 @@ Claude will:
 **Solutions:**
 - Wait 30 minutes
 - Reduce daily quota
-- Increase wait time between subreddits (in BATCH.md)
 
 ---
 

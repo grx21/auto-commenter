@@ -11,14 +11,13 @@ Only track subreddits listed in `resources/subreddits.md`.
 
 | Subreddit | Today's Comments | Daily Limit | Last Comment |
 |-----------|------------------|-------------|--------------|
-| r/PrayerRequests | 0 | 3 | - |
-| r/TrueChristian | 0 | 3 | - |
-| r/Christianmarriage | 0 | 3 | - |
-| r/Christianity | 0 | 3 | - |
-| r/ChristianDating | 0 | 3 | - |
-| r/Christian | 0 | 3 | - |
-| r/Samaritan_daily | 0 | 3 | - |
-<!-- For r/Samaritan_daily: count = new posts created only (do not comment on existing posts). -->
+| r/SideProject | 0 | 3 | - |
+| r/SaaS | 0 | 3 | - |
+| r/automation | 0 | 3 | - |
+| r/ChatGPT | 0 | 3 | - |
+| r/OpenAI | 0 | 3 | - |
+| r/artificial | 0 | 3 | - |
+| r/Notion | 0 | 3 | - |
 
 **Today's Total Comments**: 0
 **Next Target Subreddit**: (Select from subreddits with no activity yet in this table)
@@ -39,7 +38,6 @@ Add in this format after each comment:
 Full comment written
 ```
 
-For r/Samaritan_daily (new posts only): log as new post. Post = [Title of new thread](URL of new thread). Comment Link / Comment Content = N/A (new post).
 -->
 
 (No activity today)

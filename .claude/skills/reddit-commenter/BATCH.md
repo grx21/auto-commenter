@@ -14,6 +14,18 @@ Start batch mode with these commands:
 
 ---
 
+## Posting (use Playwright script)
+
+When posting comments, use the project scripts so posting works reliably:
+
+- **Single:** `node scripts/post-reddit-comment.js "<post_url>" "<comment text>"`
+- **Batch:** `node scripts/post-reddit-batch.js` (uses `MANUAL_POST_YYYY-MM-DD.md`; create from template if needed)
+- **Login once:** `node scripts/login-reddit.js` if the batch reports "textarea not found"
+
+The script `scripts/post-reddit-comment.js` includes a **JS form-submit fallback** (submit via `page.evaluate` on the form containing the textarea). This is required for old Reddit; do not remove it.
+
+---
+
 ## Pre-Start Check
 
 ```
@@ -40,6 +52,7 @@ These rules apply to every comment in the batch to minimize token usage:
 | **Shortlist before navigating** | Pick up to 3 candidate posts from listing before navigating to any |
 | **Draft loop cap** | Max 1 revision per comment. Still failing personalization = skip post |
 | **Minimal MCP payloads** | Fixed format: `"Navigate to [URL]"`, `"Click [ref]"`, `"Type: [text]"` — never pass context |
+| **Use cursor-ide-browser** | Playwright MCP fails with "User rejected MCP" in Cursor. Use cursor-ide-browser MCP instead. |
 | **Lazy resource reads** | Only read large files (personalization_reddit.md, etc.) when actively needed, not upfront |
 
 ---
@@ -54,12 +67,10 @@ These rules apply to every comment in the batch to minimize token usage:
 [2] Select subreddit under quota (by priority criteria)
     → Check subreddit specifics in resources/subreddits.md:
       rules, community nature, good topics to answer
-    → If subreddit is r/Samaritan_daily: new posts only (no comments). Use Step 2-Samaritan_daily.
     ↓
 [3] Start activity loop for that subreddit
     ↓
-    [3-1] If r/Samaritan_daily: execute SKILL.md Step 2-Samaritan_daily (create new posts only; posts = slight controversy / stop-in-tracks, see subreddits.md).
-          Else: execute SKILL.md Step 2-8 (comment on existing posts).
+    [3-1] Execute SKILL.md Step 2-8 (comment on existing posts).
     ↓
     [3-2] Update tracking file
     ↓
@@ -70,7 +81,7 @@ These rules apply to every comment in the batch to minimize token usage:
           - Completed 3 → to [4]
           - No suitable posts → to [4]
     ↓
-[4] Move to next subreddit (wait 5 minutes)
+[4] Move to next subreddit
     ↓
 [5] Check overall termination condition
     ↓
@@ -90,30 +101,22 @@ These rules apply to every comment in the batch to minimize token usage:
 
 ---
 
-## Wait Time Rules
-
-| Situation | Wait Time |
-|-----------|-----------|
-| Between comments in same subreddit | 5-10 minutes |
-| Between subreddit transitions | 5 minutes |
-| Can't find suitable post | Move to next subreddit (wait 5 minutes) |
-
 ### Execution Example
 
 ```
-Start r/PrayerRequests
-  → Comment 1/3 written → Wait 7 min
-  → Comment 2/3 written → Wait 5 min
+Start r/SideProject
+  → Comment 1/3 written
+  → Comment 2/3 written
   → Comment 3/3 written ✓
 
-r/PrayerRequests complete → Wait 5 min → Move to r/TrueChristian
+r/SideProject complete → Move to r/SaaS
 
-Start r/TrueChristian
-  → Comment 1/3 written → Wait 8 min
-  → Comment 2/3 written → Wait 6 min
+Start r/SaaS
+  → Comment 1/3 written
+  → Comment 2/3 written
   → Comment 3/3 written ✓
 
-r/TrueChristian complete → Wait 5 min → Move to r/Christianmarriage
+r/SaaS complete → Move to r/automation
 ```
 
 ---
@@ -122,7 +125,7 @@ r/TrueChristian complete → Wait 5 min → Move to r/Christianmarriage
 
 Batch execution terminates when one of the following is met:
 
-1. **Quota complete**: All subreddit quotas complete (21)
+1. **Quota complete**: All subreddit quotas complete (7 × 3 = 21)
 2. **No posts**: No suitable posts in all subreddits
 3. **User interruption**: User requests stop
 4. **Error occurred**: After 3 consecutive failures
@@ -132,23 +135,22 @@ Batch execution terminates when one of the following is met:
 ### Progress Report
 ```
 ---
-[Overall Progress] 6/24 completed
+[Overall Progress] 6/21 completed
 
 Completed subreddits:
-✓ r/WebDev: 3/3
-✓ r/ClaudeAI: 3/3
+✓ r/SideProject: 3/3
+✓ r/SaaS: 3/3
 
 In progress:
-→ r/Cursor: 0/3 (current)
+→ r/automation: 0/3 (current)
 
 Waiting:
-- r/LocalLLaMA: 0/3
 - r/ChatGPT: 0/3
-- r/SideProject: 0/3
-- r/Obsidian: 0/3
-- r/Rag: 0/3
+- r/OpenAI: 0/3
+- r/artificial: 0/3
+- r/Notion: 0/3
 
-Next: Move to r/LocalLLaMA after r/Cursor quota complete
+Next: Move to r/ChatGPT after r/automation quota complete
 ---
 ```
 
@@ -160,7 +162,7 @@ When skipping specific subreddit:
 
 When skipping, report:
 ```
-r/LocalLLaMA skipped - No suitable posts
+r/automation skipped - No suitable posts
 → Moving to r/ChatGPT
 ```
 
@@ -183,26 +185,25 @@ r/LocalLLaMA skipped - No suitable posts
 ---
 ## Batch Completion Report
 
-**Total Written**: 18/24
+**Total Written**: 18/21
 **Time Spent**: 2 hours 35 minutes
 
 ### Results by Subreddit
 | Subreddit | Written | Skip Reason |
 |-----------|---------|-------------|
-| r/WebDev | 3/3 | - |
-| r/ClaudeAI | 3/3 | - |
-| r/Cursor | 2/3 | No suitable posts |
-| r/LocalLLaMA | 0/3 | All skipped (no technical discussion) |
-| r/ChatGPT | 3/3 | - |
 | r/SideProject | 3/3 | - |
-| r/Obsidian | 2/3 | No suitable posts |
-| r/Rag | 2/3 | No suitable posts |
+| r/SaaS | 3/3 | - |
+| r/automation | 2/3 | No suitable posts |
+| r/ChatGPT | 3/3 | - |
+| r/OpenAI | 0/3 | All skipped (no automation discussion) |
+| r/artificial | 2/3 | No suitable posts |
+| r/Notion | 2/3 | No suitable posts |
 
 ### Potential Customers Discovered
 - 2 (updated in leads/reddit.md)
 
 ### Special Notes
-- r/LocalLLaMA: All skipped due to no technical discussion posts today
+- r/OpenAI: All skipped due to no automation discussion posts today
 ---
 ```
 
