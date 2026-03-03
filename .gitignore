@@ -7,6 +7,9 @@ Products/
 tracking/reddit/*.md
 !tracking/reddit/template.md
 
+# Daily batch files (ephemeral)
+MANUAL_POST_*.md
+
 # Actual leads data
 leads/*.md
 !leads/reddit.md
